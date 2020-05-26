@@ -4,37 +4,47 @@ $params = require __DIR__ . '/params.php';
 $db = require __DIR__ . '/db.php';
 
 $config = [
-    'id' => 'basic-console',
-    'basePath' => dirname(__DIR__),
-    'bootstrap' => ['log'],
+    'id'                  => 'basic-console',
+    'basePath'            => dirname(__DIR__),
+    'bootstrap'           => ['log'],
     'controllerNamespace' => 'app\commands',
-    'aliases' => [
+    'aliases'             => [
         '@bower' => '@vendor/bower-asset',
-        '@npm' => '@vendor/npm-asset',
+        '@npm'   => '@vendor/npm-asset',
         '@tests' => '@app/tests',
     ],
-    'components' => [
+    'components'          => [
         'cache' => [
             'class' => 'yii\caching\FileCache',
         ],
-        'log' => [
+        'log'   => [
             'targets' => [
                 [
-                    'class' => 'yii\log\FileTarget',
+                    'class'  => 'yii\log\FileTarget',
                     'levels' => ['error', 'warning'],
                 ],
             ],
         ],
-        'db' => $db,
+        'db'    => $db,
     ],
-    'params' => $params,
-    /*
+    'params'              => $params,
+
+    // Mysql migrations
+    //    'migrate-mysql'       => [
+    //        'class'          => \yii\console\controllers\MigrateController::class,
+    //        'migrationPath'  => [
+    //            '@app/migrations/mysql',
+    //            '@yii/rbac/migrations',
+    //            '@mdm/admin/migrations',
+    //        ],
+    //        'migrationTable' => 'migration',
+    //    ],
+
     'controllerMap' => [
         'fixture' => [ // Fixture generation command line.
-            'class' => 'yii\faker\FixtureController',
+                       'class' => 'yii\faker\FixtureController',
         ],
     ],
-    */
 ];
 
 if (YII_ENV_DEV) {

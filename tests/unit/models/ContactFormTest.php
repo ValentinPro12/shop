@@ -5,6 +5,7 @@ namespace tests\unit\models;
 class ContactFormTest extends \Codeception\Test\Unit
 {
     private $model;
+
     /**
      * @var \UnitTester
      */
@@ -22,10 +23,10 @@ class ContactFormTest extends \Codeception\Test\Unit
             ->will($this->returnValue(true));
 
         $this->model->attributes = [
-            'name' => 'Tester',
-            'email' => 'tester@example.com',
+            'name'    => 'Tester',
+            'email'   => 'tester@example.com',
             'subject' => 'very important letter subject',
-            'body' => 'body of current message',
+            'body'    => 'body of current message',
         ];
 
         expect_that($this->model->contact('admin@example.com'));

@@ -490,3 +490,1708 @@ $_SERVER = [
     'MONGO_EXPRESS_RESTART' => 'always'
     'COOKIE_VALIDATION_KEY' => 'goBO9MdWpxXT69otHTNWPU0CBB0b6VjF'
 ]
+2020-05-26 19:51:26 [172.22.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.22.0.1
+    in /var/www/html/views/layouts/main.php:74
+    in /var/www/html/controllers/SiteController.php:85
+2020-05-26 19:51:26 [172.22.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.22.0.1
+2020-05-26 19:51:26 [172.22.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PGADMIN_LANGUAGE' => 'ru'
+    'wordpress_test_cookie' => 'WP Cookie check'
+    'wordpress_logged_in_37d007a56d816107ce5b52c10342db37' => 'root|1587155768|pNxownJOhFHncP0HM0SzgxPo50wCcO1bA5FZFFrcusI|b1a1bbc111590bd5d0750b39a347b09b15884c8f67f377bfdbcbbcea7ec20da9'
+    'wp-settings-time-1' => '1586982971'
+    'PHPSESSID' => '49963d39990cf8fd410860ae6d50a59c'
+    'mongo-express' => 's:FQ_Mvyzca5i733cLQkflbFwHHFX81KUk.Wn6WgnglV41mXyo9pP+uFJ6m+UAD89MtOVRW6ZPSDik'
+    '_csrf' => '5de3e77faca8b44690fc5d131a41011a9cd9db7be9efc2a2b1086d87901cfcc5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"25z1gfhcVPBzi-zGFgKpjf_P7RdPBzzV\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8084'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8084/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PGADMIN_LANGUAGE=ru; wordpress_test_cookie=WP+Cookie+check; wordpress_logged_in_37d007a56d816107ce5b52c10342db37=root%7C1587155768%7CpNxownJOhFHncP0HM0SzgxPo50wCcO1bA5FZFFrcusI%7Cb1a1bbc111590bd5d0750b39a347b09b15884c8f67f377bfdbcbbcea7ec20da9; wp-settings-time-1=1586982971; PHPSESSID=49963d39990cf8fd410860ae6d50a59c; mongo-express=s%3AFQ_Mvyzca5i733cLQkflbFwHHFX81KUk.Wn6WgnglV41mXyo9pP%2BuFJ6m%2BUAD89MtOVRW6ZPSDik; _csrf=5de3e77faca8b44690fc5d131a41011a9cd9db7be9efc2a2b1086d87901cfcc5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2225z1gfhcVPBzi-zGFgKpjf_P7RdPBzzV%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at localhost Port 8084</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '172.22.0.2'
+    'SERVER_PORT' => '8084'
+    'REMOTE_ADDR' => '172.22.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/web/index.php'
+    'REMOTE_PORT' => '55434'
+    'REDIRECT_URL' => '/site/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/login'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1590522686.063
+    'REQUEST_TIME' => 1590522686
+    'argv' => []
+    'argc' => 0
+    'APP_NAME' => 'NSPK'
+    'APP_ID' => 'nspk'
+    'APP_URL' => 'http://localhost'
+    'APP_LANGUAGE' => 'ru-Ru'
+    'APP_ADMIN_EMAIL' => 'admin@example.com'
+    'WEB_PORT' => '8084'
+    'WEB_WORKING_DIR' => '/var/www/html/'
+    'WEB_ROOT_PATH' => '.'
+    'MYSQL_CONNECTION' => 'mysql'
+    'MYSQL_HOST' => 'localhost'
+    'MYSQL_PORT' => '3305'
+    'MYSQL_DATABASE' => 'db_mysql_20190305_nspk'
+    'MYSQL_DATABASE_CHARSET' => 'utf8mb4'
+    'MYSQL_DATABASE_COLLATION' => 'utf8mb4_unicode_ci'
+    'MYSQL_ROOT_USERNAME' => 'root'
+    'MYSQL_ROOT_PASSWORD' => 'rootexample'
+    'MYSQL_RESTART' => 'always'
+    'MYSQL_PATH' => './docker/databases/mysql'
+    'PHPMYADMIN_PORT' => '8082'
+    'MONGO_DB_CONNECTION' => 'mongo'
+    'MONGO_DB_HOST' => 'mongo'
+    'MONGO_DB_PORT' => '27017'
+    'MONGO_DB_DATABASE' => 'db_mongodb_20190305_nspk'
+    'MONGO_DB_ROOT_USERNAME' => 'root'
+    'MONGO_DB_ROOT_PASSWORD' => 'example'
+    'MONGO_DB_USERNAME' => 'user'
+    'MONGO_DB_PASSWORD' => 'example'
+    'MONGO_PATH' => './docker/databases/mongodb'
+    'MONGO_EXPRESS_PORT' => '8081'
+    'MONGO_EXPRESS_RESTART' => 'always'
+    'COOKIE_VALIDATION_KEY' => 'goBO9MdWpxXT69otHTNWPU0CBB0b6VjF'
+]
+2020-05-26 19:51:28 [172.22.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.22.0.1
+    in /var/www/html/views/layouts/main.php:74
+    in /var/www/html/controllers/SiteController.php:64
+2020-05-26 19:51:28 [172.22.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.22.0.1
+2020-05-26 19:51:28 [172.22.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PGADMIN_LANGUAGE' => 'ru'
+    'wordpress_test_cookie' => 'WP Cookie check'
+    'wordpress_logged_in_37d007a56d816107ce5b52c10342db37' => 'root|1587155768|pNxownJOhFHncP0HM0SzgxPo50wCcO1bA5FZFFrcusI|b1a1bbc111590bd5d0750b39a347b09b15884c8f67f377bfdbcbbcea7ec20da9'
+    'wp-settings-time-1' => '1586982971'
+    'PHPSESSID' => '49963d39990cf8fd410860ae6d50a59c'
+    'mongo-express' => 's:FQ_Mvyzca5i733cLQkflbFwHHFX81KUk.Wn6WgnglV41mXyo9pP+uFJ6m+UAD89MtOVRW6ZPSDik'
+    '_csrf' => '5de3e77faca8b44690fc5d131a41011a9cd9db7be9efc2a2b1086d87901cfcc5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"25z1gfhcVPBzi-zGFgKpjf_P7RdPBzzV\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8084'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8084/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PGADMIN_LANGUAGE=ru; wordpress_test_cookie=WP+Cookie+check; wordpress_logged_in_37d007a56d816107ce5b52c10342db37=root%7C1587155768%7CpNxownJOhFHncP0HM0SzgxPo50wCcO1bA5FZFFrcusI%7Cb1a1bbc111590bd5d0750b39a347b09b15884c8f67f377bfdbcbbcea7ec20da9; wp-settings-time-1=1586982971; PHPSESSID=49963d39990cf8fd410860ae6d50a59c; mongo-express=s%3AFQ_Mvyzca5i733cLQkflbFwHHFX81KUk.Wn6WgnglV41mXyo9pP%2BuFJ6m%2BUAD89MtOVRW6ZPSDik; _csrf=5de3e77faca8b44690fc5d131a41011a9cd9db7be9efc2a2b1086d87901cfcc5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2225z1gfhcVPBzi-zGFgKpjf_P7RdPBzzV%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at localhost Port 8084</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '172.22.0.2'
+    'SERVER_PORT' => '8084'
+    'REMOTE_ADDR' => '172.22.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/web/index.php'
+    'REMOTE_PORT' => '55454'
+    'REDIRECT_URL' => '/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1590522687.986
+    'REQUEST_TIME' => 1590522687
+    'argv' => []
+    'argc' => 0
+    'APP_NAME' => 'NSPK'
+    'APP_ID' => 'nspk'
+    'APP_URL' => 'http://localhost'
+    'APP_LANGUAGE' => 'ru-Ru'
+    'APP_ADMIN_EMAIL' => 'admin@example.com'
+    'WEB_PORT' => '8084'
+    'WEB_WORKING_DIR' => '/var/www/html/'
+    'WEB_ROOT_PATH' => '.'
+    'MYSQL_CONNECTION' => 'mysql'
+    'MYSQL_HOST' => 'localhost'
+    'MYSQL_PORT' => '3305'
+    'MYSQL_DATABASE' => 'db_mysql_20190305_nspk'
+    'MYSQL_DATABASE_CHARSET' => 'utf8mb4'
+    'MYSQL_DATABASE_COLLATION' => 'utf8mb4_unicode_ci'
+    'MYSQL_ROOT_USERNAME' => 'root'
+    'MYSQL_ROOT_PASSWORD' => 'rootexample'
+    'MYSQL_RESTART' => 'always'
+    'MYSQL_PATH' => './docker/databases/mysql'
+    'PHPMYADMIN_PORT' => '8082'
+    'MONGO_DB_CONNECTION' => 'mongo'
+    'MONGO_DB_HOST' => 'mongo'
+    'MONGO_DB_PORT' => '27017'
+    'MONGO_DB_DATABASE' => 'db_mongodb_20190305_nspk'
+    'MONGO_DB_ROOT_USERNAME' => 'root'
+    'MONGO_DB_ROOT_PASSWORD' => 'example'
+    'MONGO_DB_USERNAME' => 'user'
+    'MONGO_DB_PASSWORD' => 'example'
+    'MONGO_PATH' => './docker/databases/mongodb'
+    'MONGO_EXPRESS_PORT' => '8081'
+    'MONGO_EXPRESS_RESTART' => 'always'
+    'COOKIE_VALIDATION_KEY' => 'goBO9MdWpxXT69otHTNWPU0CBB0b6VjF'
+]
+2020-05-26 20:01:30 [172.22.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.22.0.1
+    in /var/www/html/views/layouts/main.php:74
+    in /var/www/html/controllers/SiteController.php:64
+2020-05-26 20:01:30 [172.22.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.22.0.1
+2020-05-26 20:01:30 [172.22.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PGADMIN_LANGUAGE' => 'ru'
+    'wordpress_test_cookie' => 'WP Cookie check'
+    'wordpress_logged_in_37d007a56d816107ce5b52c10342db37' => 'root|1587155768|pNxownJOhFHncP0HM0SzgxPo50wCcO1bA5FZFFrcusI|b1a1bbc111590bd5d0750b39a347b09b15884c8f67f377bfdbcbbcea7ec20da9'
+    'wp-settings-time-1' => '1586982971'
+    'PHPSESSID' => '49963d39990cf8fd410860ae6d50a59c'
+    'mongo-express' => 's:FQ_Mvyzca5i733cLQkflbFwHHFX81KUk.Wn6WgnglV41mXyo9pP+uFJ6m+UAD89MtOVRW6ZPSDik'
+    '_csrf' => '5de3e77faca8b44690fc5d131a41011a9cd9db7be9efc2a2b1086d87901cfcc5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"25z1gfhcVPBzi-zGFgKpjf_P7RdPBzzV\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8084'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8084/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PGADMIN_LANGUAGE=ru; wordpress_test_cookie=WP+Cookie+check; wordpress_logged_in_37d007a56d816107ce5b52c10342db37=root%7C1587155768%7CpNxownJOhFHncP0HM0SzgxPo50wCcO1bA5FZFFrcusI%7Cb1a1bbc111590bd5d0750b39a347b09b15884c8f67f377bfdbcbbcea7ec20da9; wp-settings-time-1=1586982971; PHPSESSID=49963d39990cf8fd410860ae6d50a59c; mongo-express=s%3AFQ_Mvyzca5i733cLQkflbFwHHFX81KUk.Wn6WgnglV41mXyo9pP%2BuFJ6m%2BUAD89MtOVRW6ZPSDik; _csrf=5de3e77faca8b44690fc5d131a41011a9cd9db7be9efc2a2b1086d87901cfcc5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2225z1gfhcVPBzi-zGFgKpjf_P7RdPBzzV%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at localhost Port 8084</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '172.22.0.2'
+    'SERVER_PORT' => '8084'
+    'REMOTE_ADDR' => '172.22.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/web/index.php'
+    'REMOTE_PORT' => '55680'
+    'REDIRECT_URL' => '/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1590523290.011
+    'REQUEST_TIME' => 1590523290
+    'argv' => []
+    'argc' => 0
+    'APP_NAME' => 'NSPK'
+    'APP_ID' => 'nspk'
+    'APP_URL' => 'http://localhost'
+    'APP_LANGUAGE' => 'ru-Ru'
+    'APP_ADMIN_EMAIL' => 'admin@example.com'
+    'WEB_PORT' => '8084'
+    'WEB_WORKING_DIR' => '/var/www/html/'
+    'WEB_ROOT_PATH' => '.'
+    'MYSQL_CONNECTION' => 'mysql'
+    'MYSQL_HOST' => 'localhost'
+    'MYSQL_PORT' => '3305'
+    'MYSQL_DATABASE' => 'db_mysql_20190305_nspk'
+    'MYSQL_DATABASE_CHARSET' => 'utf8mb4'
+    'MYSQL_DATABASE_COLLATION' => 'utf8mb4_unicode_ci'
+    'MYSQL_ROOT_USERNAME' => 'root'
+    'MYSQL_ROOT_PASSWORD' => 'rootexample'
+    'MYSQL_RESTART' => 'always'
+    'MYSQL_PATH' => './docker/databases/mysql'
+    'PHPMYADMIN_PORT' => '8082'
+    'MONGO_DB_CONNECTION' => 'mongo'
+    'MONGO_DB_HOST' => 'mongo'
+    'MONGO_DB_PORT' => '27017'
+    'MONGO_DB_DATABASE' => 'db_mongodb_20190305_nspk'
+    'MONGO_DB_ROOT_USERNAME' => 'root'
+    'MONGO_DB_ROOT_PASSWORD' => 'example'
+    'MONGO_DB_USERNAME' => 'user'
+    'MONGO_DB_PASSWORD' => 'example'
+    'MONGO_PATH' => './docker/databases/mongodb'
+    'MONGO_EXPRESS_PORT' => '8081'
+    'MONGO_EXPRESS_RESTART' => 'always'
+    'COOKIE_VALIDATION_KEY' => 'goBO9MdWpxXT69otHTNWPU0CBB0b6VjF'
+]
+2020-05-26 20:13:03 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [2002] No such file or directory in /var/www/html/vendor/yiisoft/yii2/db/Connection.php:705
+Stack trace:
+#0 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(705): PDO->__construct('mysql:host=loca...', 'root', 'rootexample', NULL)
+#1 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(626): yii\db\Connection->createPdoInstance()
+#2 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(1022): yii\db\Connection->open()
+#3 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(1009): yii\db\Connection->getMasterPdo()
+#4 /var/www/html/vendor/yiisoft/yii2/db/Command.php(255): yii\db\Connection->getSlavePdo()
+#5 /var/www/html/vendor/yiisoft/yii2/db/Command.php(1154): yii\db\Command->prepare(true)
+#6 /var/www/html/vendor/yiisoft/yii2/db/Command.php(401): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /var/www/html/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#8 /var/www/html/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 /var/www/html/vendor/yiisoft/yii2/db/Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#10 /var/www/html/vendor/yiisoft/yii2/db/Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#11 /var/www/html/vendor/yiisoft/yii2/console/controllers/MigrateController.php(371): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#12 /var/www/html/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(633): yii\console\controllers\MigrateController->getMigrationNameLimit()
+#13 [internal function]: yii\console\controllers\BaseMigrateController->actionCreate('uset')
+#14 /var/www/html/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /var/www/html/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#16 /var/www/html/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('create', Array)
+#17 /var/www/html/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create', Array)
+#18 /var/www/html/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create', Array)
+#19 /var/www/html/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create', Array)
+#20 /var/www/html/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#21 /var/www/html/yii(20): yii\base\Application->run()
+#22 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] No such file or directory in /var/www/html/vendor/yiisoft/yii2/db/Connection.php:637
+Stack trace:
+#0 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(1022): yii\db\Connection->open()
+#1 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(1009): yii\db\Connection->getMasterPdo()
+#2 /var/www/html/vendor/yiisoft/yii2/db/Command.php(255): yii\db\Connection->getSlavePdo()
+#3 /var/www/html/vendor/yiisoft/yii2/db/Command.php(1154): yii\db\Command->prepare(true)
+#4 /var/www/html/vendor/yiisoft/yii2/db/Command.php(401): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 /var/www/html/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#6 /var/www/html/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 /var/www/html/vendor/yiisoft/yii2/db/Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#8 /var/www/html/vendor/yiisoft/yii2/db/Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#9 /var/www/html/vendor/yiisoft/yii2/console/controllers/MigrateController.php(371): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#10 /var/www/html/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(633): yii\console\controllers\MigrateController->getMigrationNameLimit()
+#11 [internal function]: yii\console\controllers\BaseMigrateController->actionCreate('uset')
+#12 /var/www/html/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#13 /var/www/html/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#14 /var/www/html/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('create', Array)
+#15 /var/www/html/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create', Array)
+#16 /var/www/html/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create', Array)
+#17 /var/www/html/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create', Array)
+#18 /var/www/html/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#19 /var/www/html/yii(20): yii\base\Application->run()
+#20 {main}
+Additional Information:
+
+2020-05-26 20:13:03 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HOSTNAME' => '5c234d14c23d'
+    'PHP_VERSION' => '7.1.33'
+    'APACHE_CONFDIR' => '/etc/apache2'
+    'PHP_MD5' => ''
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'GPG_KEYS' => 'A917B1ECDA84AEC2B568FED6F50ABC807BD5DCD0 528995BFEDFBA7191D46839EF9BA0ADA31CBD89E 1729F83938DA44E27BA0F4D3DBDB397470D12172'
+    'PHP_LDFLAGS' => '-Wl,-O1 -Wl,--hash-style=both -pie'
+    'PWD' => '/var/www/html'
+    'HOME' => '/root'
+    'PHP_SHA256' => 'bd7c0a9bd5433289ee01fd440af3715309faf583f75832b64fe169c100d52968'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'TERM' => 'xterm'
+    'PHP_URL' => 'https://www.php.net/get/php-7.1.33.tar.xz/from/this/mirror'
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--with-apxs2 --disable-cgi'
+    'SHLVL' => '1'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'APACHE_ENVVARS' => '/etc/apache2/envvars'
+    'APACHE_RUN_USER' => '#1000'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHP_EXTRA_BUILD_DEPS' => 'apache2-dev'
+    'PHP_ASC_URL' => 'https://www.php.net/get/php-7.1.33.tar.xz.asc/from/this/mirror'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    '_' => '/usr/local/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1590523983.4903
+    'REQUEST_TIME' => 1590523983
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create'
+        2 => 'uset'
+    ]
+    'argc' => 3
+    'APP_NAME' => 'NSPK'
+    'APP_ID' => 'nspk'
+    'APP_URL' => 'http://localhost'
+    'APP_LANGUAGE' => 'ru-Ru'
+    'APP_ADMIN_EMAIL' => 'admin@example.com'
+    'WEB_PORT' => '8084'
+    'WEB_WORKING_DIR' => '/var/www/html/'
+    'WEB_ROOT_PATH' => '.'
+    'MYSQL_CONNECTION' => 'mysql'
+    'MYSQL_HOST' => 'localhost'
+    'MYSQL_PORT' => '3305'
+    'MYSQL_DATABASE' => 'db_mysql_20190305_nspk'
+    'MYSQL_DATABASE_CHARSET' => 'utf8mb4'
+    'MYSQL_DATABASE_COLLATION' => 'utf8mb4_unicode_ci'
+    'MYSQL_ROOT_USERNAME' => 'root'
+    'MYSQL_ROOT_PASSWORD' => 'rootexample'
+    'MYSQL_RESTART' => 'always'
+    'MYSQL_PATH' => './docker/databases/mysql'
+    'PHPMYADMIN_PORT' => '8082'
+    'MONGO_DB_CONNECTION' => 'mongo'
+    'MONGO_DB_HOST' => 'mongo'
+    'MONGO_DB_PORT' => '27017'
+    'MONGO_DB_DATABASE' => 'db_mongodb_20190305_nspk'
+    'MONGO_DB_ROOT_USERNAME' => 'root'
+    'MONGO_DB_ROOT_PASSWORD' => 'example'
+    'MONGO_DB_USERNAME' => 'user'
+    'MONGO_DB_PASSWORD' => 'example'
+    'MONGO_PATH' => './docker/databases/mongodb'
+    'MONGO_EXPRESS_PORT' => '8081'
+    'MONGO_EXPRESS_RESTART' => 'always'
+    'COOKIE_VALIDATION_KEY' => 'goBO9MdWpxXT69otHTNWPU0CBB0b6VjF'
+]
+2020-05-26 20:13:07 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [2002] No such file or directory in /var/www/html/vendor/yiisoft/yii2/db/Connection.php:705
+Stack trace:
+#0 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(705): PDO->__construct('mysql:host=loca...', 'root', 'rootexample', NULL)
+#1 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(626): yii\db\Connection->createPdoInstance()
+#2 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(1022): yii\db\Connection->open()
+#3 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(1009): yii\db\Connection->getMasterPdo()
+#4 /var/www/html/vendor/yiisoft/yii2/db/Command.php(255): yii\db\Connection->getSlavePdo()
+#5 /var/www/html/vendor/yiisoft/yii2/db/Command.php(1154): yii\db\Command->prepare(true)
+#6 /var/www/html/vendor/yiisoft/yii2/db/Command.php(401): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /var/www/html/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#8 /var/www/html/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 /var/www/html/vendor/yiisoft/yii2/db/Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#10 /var/www/html/vendor/yiisoft/yii2/db/Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#11 /var/www/html/vendor/yiisoft/yii2/console/controllers/MigrateController.php(371): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#12 /var/www/html/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(633): yii\console\controllers\MigrateController->getMigrationNameLimit()
+#13 [internal function]: yii\console\controllers\BaseMigrateController->actionCreate('uset')
+#14 /var/www/html/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /var/www/html/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#16 /var/www/html/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('create', Array)
+#17 /var/www/html/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create', Array)
+#18 /var/www/html/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create', Array)
+#19 /var/www/html/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create', Array)
+#20 /var/www/html/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#21 /var/www/html/yii(20): yii\base\Application->run()
+#22 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] No such file or directory in /var/www/html/vendor/yiisoft/yii2/db/Connection.php:637
+Stack trace:
+#0 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(1022): yii\db\Connection->open()
+#1 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(1009): yii\db\Connection->getMasterPdo()
+#2 /var/www/html/vendor/yiisoft/yii2/db/Command.php(255): yii\db\Connection->getSlavePdo()
+#3 /var/www/html/vendor/yiisoft/yii2/db/Command.php(1154): yii\db\Command->prepare(true)
+#4 /var/www/html/vendor/yiisoft/yii2/db/Command.php(401): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 /var/www/html/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#6 /var/www/html/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 /var/www/html/vendor/yiisoft/yii2/db/Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#8 /var/www/html/vendor/yiisoft/yii2/db/Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#9 /var/www/html/vendor/yiisoft/yii2/console/controllers/MigrateController.php(371): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#10 /var/www/html/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(633): yii\console\controllers\MigrateController->getMigrationNameLimit()
+#11 [internal function]: yii\console\controllers\BaseMigrateController->actionCreate('uset')
+#12 /var/www/html/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#13 /var/www/html/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#14 /var/www/html/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('create', Array)
+#15 /var/www/html/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create', Array)
+#16 /var/www/html/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create', Array)
+#17 /var/www/html/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create', Array)
+#18 /var/www/html/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#19 /var/www/html/yii(20): yii\base\Application->run()
+#20 {main}
+Additional Information:
+
+2020-05-26 20:13:07 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HOSTNAME' => '5c234d14c23d'
+    'PHP_VERSION' => '7.1.33'
+    'APACHE_CONFDIR' => '/etc/apache2'
+    'PHP_MD5' => ''
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'GPG_KEYS' => 'A917B1ECDA84AEC2B568FED6F50ABC807BD5DCD0 528995BFEDFBA7191D46839EF9BA0ADA31CBD89E 1729F83938DA44E27BA0F4D3DBDB397470D12172'
+    'PHP_LDFLAGS' => '-Wl,-O1 -Wl,--hash-style=both -pie'
+    'PWD' => '/var/www/html'
+    'HOME' => '/root'
+    'PHP_SHA256' => 'bd7c0a9bd5433289ee01fd440af3715309faf583f75832b64fe169c100d52968'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'TERM' => 'xterm'
+    'PHP_URL' => 'https://www.php.net/get/php-7.1.33.tar.xz/from/this/mirror'
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--with-apxs2 --disable-cgi'
+    'SHLVL' => '1'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'APACHE_ENVVARS' => '/etc/apache2/envvars'
+    'APACHE_RUN_USER' => '#1000'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHP_EXTRA_BUILD_DEPS' => 'apache2-dev'
+    'PHP_ASC_URL' => 'https://www.php.net/get/php-7.1.33.tar.xz.asc/from/this/mirror'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    '_' => '/usr/local/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1590523987.9659
+    'REQUEST_TIME' => 1590523987
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create'
+        2 => 'uset'
+    ]
+    'argc' => 3
+    'APP_NAME' => 'NSPK'
+    'APP_ID' => 'nspk'
+    'APP_URL' => 'http://localhost'
+    'APP_LANGUAGE' => 'ru-Ru'
+    'APP_ADMIN_EMAIL' => 'admin@example.com'
+    'WEB_PORT' => '8084'
+    'WEB_WORKING_DIR' => '/var/www/html/'
+    'WEB_ROOT_PATH' => '.'
+    'MYSQL_CONNECTION' => 'mysql'
+    'MYSQL_HOST' => 'localhost'
+    'MYSQL_PORT' => '3305'
+    'MYSQL_DATABASE' => 'db_mysql_20190305_nspk'
+    'MYSQL_DATABASE_CHARSET' => 'utf8mb4'
+    'MYSQL_DATABASE_COLLATION' => 'utf8mb4_unicode_ci'
+    'MYSQL_ROOT_USERNAME' => 'root'
+    'MYSQL_ROOT_PASSWORD' => 'rootexample'
+    'MYSQL_RESTART' => 'always'
+    'MYSQL_PATH' => './docker/databases/mysql'
+    'PHPMYADMIN_PORT' => '8082'
+    'MONGO_DB_CONNECTION' => 'mongo'
+    'MONGO_DB_HOST' => 'mongo'
+    'MONGO_DB_PORT' => '27017'
+    'MONGO_DB_DATABASE' => 'db_mongodb_20190305_nspk'
+    'MONGO_DB_ROOT_USERNAME' => 'root'
+    'MONGO_DB_ROOT_PASSWORD' => 'example'
+    'MONGO_DB_USERNAME' => 'user'
+    'MONGO_DB_PASSWORD' => 'example'
+    'MONGO_PATH' => './docker/databases/mongodb'
+    'MONGO_EXPRESS_PORT' => '8081'
+    'MONGO_EXPRESS_RESTART' => 'always'
+    'COOKIE_VALIDATION_KEY' => 'goBO9MdWpxXT69otHTNWPU0CBB0b6VjF'
+]
+2020-05-26 20:14:02 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [2002] No such file or directory in /var/www/html/vendor/yiisoft/yii2/db/Connection.php:705
+Stack trace:
+#0 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(705): PDO->__construct('mysql:host=loca...', 'root', 'rootexample', NULL)
+#1 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(626): yii\db\Connection->createPdoInstance()
+#2 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(1022): yii\db\Connection->open()
+#3 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(1009): yii\db\Connection->getMasterPdo()
+#4 /var/www/html/vendor/yiisoft/yii2/db/Command.php(255): yii\db\Connection->getSlavePdo()
+#5 /var/www/html/vendor/yiisoft/yii2/db/Command.php(1154): yii\db\Command->prepare(true)
+#6 /var/www/html/vendor/yiisoft/yii2/db/Command.php(401): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /var/www/html/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#8 /var/www/html/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 /var/www/html/vendor/yiisoft/yii2/db/Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#10 /var/www/html/vendor/yiisoft/yii2/db/Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#11 /var/www/html/vendor/yiisoft/yii2/console/controllers/MigrateController.php(371): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#12 /var/www/html/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(633): yii\console\controllers\MigrateController->getMigrationNameLimit()
+#13 [internal function]: yii\console\controllers\BaseMigrateController->actionCreate('user')
+#14 /var/www/html/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /var/www/html/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#16 /var/www/html/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('create', Array)
+#17 /var/www/html/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create', Array)
+#18 /var/www/html/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create', Array)
+#19 /var/www/html/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create', Array)
+#20 /var/www/html/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#21 /var/www/html/yii(20): yii\base\Application->run()
+#22 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] No such file or directory in /var/www/html/vendor/yiisoft/yii2/db/Connection.php:637
+Stack trace:
+#0 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(1022): yii\db\Connection->open()
+#1 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(1009): yii\db\Connection->getMasterPdo()
+#2 /var/www/html/vendor/yiisoft/yii2/db/Command.php(255): yii\db\Connection->getSlavePdo()
+#3 /var/www/html/vendor/yiisoft/yii2/db/Command.php(1154): yii\db\Command->prepare(true)
+#4 /var/www/html/vendor/yiisoft/yii2/db/Command.php(401): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 /var/www/html/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#6 /var/www/html/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 /var/www/html/vendor/yiisoft/yii2/db/Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#8 /var/www/html/vendor/yiisoft/yii2/db/Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#9 /var/www/html/vendor/yiisoft/yii2/console/controllers/MigrateController.php(371): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#10 /var/www/html/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(633): yii\console\controllers\MigrateController->getMigrationNameLimit()
+#11 [internal function]: yii\console\controllers\BaseMigrateController->actionCreate('user')
+#12 /var/www/html/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#13 /var/www/html/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#14 /var/www/html/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('create', Array)
+#15 /var/www/html/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create', Array)
+#16 /var/www/html/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create', Array)
+#17 /var/www/html/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create', Array)
+#18 /var/www/html/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#19 /var/www/html/yii(20): yii\base\Application->run()
+#20 {main}
+Additional Information:
+
+2020-05-26 20:14:02 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HOSTNAME' => '5c234d14c23d'
+    'PHP_VERSION' => '7.1.33'
+    'APACHE_CONFDIR' => '/etc/apache2'
+    'PHP_MD5' => ''
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'GPG_KEYS' => 'A917B1ECDA84AEC2B568FED6F50ABC807BD5DCD0 528995BFEDFBA7191D46839EF9BA0ADA31CBD89E 1729F83938DA44E27BA0F4D3DBDB397470D12172'
+    'PHP_LDFLAGS' => '-Wl,-O1 -Wl,--hash-style=both -pie'
+    'PWD' => '/var/www/html'
+    'HOME' => '/root'
+    'PHP_SHA256' => 'bd7c0a9bd5433289ee01fd440af3715309faf583f75832b64fe169c100d52968'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'TERM' => 'xterm'
+    'PHP_URL' => 'https://www.php.net/get/php-7.1.33.tar.xz/from/this/mirror'
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--with-apxs2 --disable-cgi'
+    'SHLVL' => '1'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'APACHE_ENVVARS' => '/etc/apache2/envvars'
+    'APACHE_RUN_USER' => '#1000'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHP_EXTRA_BUILD_DEPS' => 'apache2-dev'
+    'PHP_ASC_URL' => 'https://www.php.net/get/php-7.1.33.tar.xz.asc/from/this/mirror'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    '_' => '/usr/local/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1590524042.8707
+    'REQUEST_TIME' => 1590524042
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create'
+        2 => 'user'
+    ]
+    'argc' => 3
+    'APP_NAME' => 'NSPK'
+    'APP_ID' => 'nspk'
+    'APP_URL' => 'http://localhost'
+    'APP_LANGUAGE' => 'ru-Ru'
+    'APP_ADMIN_EMAIL' => 'admin@example.com'
+    'WEB_PORT' => '8084'
+    'WEB_WORKING_DIR' => '/var/www/html/'
+    'WEB_ROOT_PATH' => '.'
+    'MYSQL_CONNECTION' => 'mysql'
+    'MYSQL_HOST' => 'localhost'
+    'MYSQL_PORT' => '3305'
+    'MYSQL_DATABASE' => 'db_mysql_20190305_nspk'
+    'MYSQL_DATABASE_CHARSET' => 'utf8mb4'
+    'MYSQL_DATABASE_COLLATION' => 'utf8mb4_unicode_ci'
+    'MYSQL_ROOT_USERNAME' => 'root'
+    'MYSQL_ROOT_PASSWORD' => 'rootexample'
+    'MYSQL_RESTART' => 'always'
+    'MYSQL_PATH' => './docker/databases/mysql'
+    'PHPMYADMIN_PORT' => '8082'
+    'MONGO_DB_CONNECTION' => 'mongo'
+    'MONGO_DB_HOST' => 'mongo'
+    'MONGO_DB_PORT' => '27017'
+    'MONGO_DB_DATABASE' => 'db_mongodb_20190305_nspk'
+    'MONGO_DB_ROOT_USERNAME' => 'root'
+    'MONGO_DB_ROOT_PASSWORD' => 'example'
+    'MONGO_DB_USERNAME' => 'user'
+    'MONGO_DB_PASSWORD' => 'example'
+    'MONGO_PATH' => './docker/databases/mongodb'
+    'MONGO_EXPRESS_PORT' => '8081'
+    'MONGO_EXPRESS_RESTART' => 'always'
+    'COOKIE_VALIDATION_KEY' => 'goBO9MdWpxXT69otHTNWPU0CBB0b6VjF'
+]
+2020-05-26 20:14:11 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [2002] No such file or directory in /var/www/html/vendor/yiisoft/yii2/db/Connection.php:705
+Stack trace:
+#0 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(705): PDO->__construct('mysql:host=loca...', 'root', 'rootexample', NULL)
+#1 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(626): yii\db\Connection->createPdoInstance()
+#2 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(1022): yii\db\Connection->open()
+#3 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(1009): yii\db\Connection->getMasterPdo()
+#4 /var/www/html/vendor/yiisoft/yii2/db/Command.php(255): yii\db\Connection->getSlavePdo()
+#5 /var/www/html/vendor/yiisoft/yii2/db/Command.php(1154): yii\db\Command->prepare(true)
+#6 /var/www/html/vendor/yiisoft/yii2/db/Command.php(401): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /var/www/html/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#8 /var/www/html/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 /var/www/html/vendor/yiisoft/yii2/db/Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#10 /var/www/html/vendor/yiisoft/yii2/db/Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#11 /var/www/html/vendor/yiisoft/yii2/console/controllers/MigrateController.php(211): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#12 /var/www/html/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(875): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#13 /var/www/html/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(167): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#14 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#15 /var/www/html/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#16 /var/www/html/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#17 /var/www/html/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('', Array)
+#18 /var/www/html/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#19 /var/www/html/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate', Array)
+#20 /var/www/html/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate', Array)
+#21 /var/www/html/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#22 /var/www/html/yii(20): yii\base\Application->run()
+#23 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] No such file or directory in /var/www/html/vendor/yiisoft/yii2/db/Connection.php:637
+Stack trace:
+#0 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(1022): yii\db\Connection->open()
+#1 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(1009): yii\db\Connection->getMasterPdo()
+#2 /var/www/html/vendor/yiisoft/yii2/db/Command.php(255): yii\db\Connection->getSlavePdo()
+#3 /var/www/html/vendor/yiisoft/yii2/db/Command.php(1154): yii\db\Command->prepare(true)
+#4 /var/www/html/vendor/yiisoft/yii2/db/Command.php(401): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 /var/www/html/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#6 /var/www/html/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 /var/www/html/vendor/yiisoft/yii2/db/Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#8 /var/www/html/vendor/yiisoft/yii2/db/Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#9 /var/www/html/vendor/yiisoft/yii2/console/controllers/MigrateController.php(211): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#10 /var/www/html/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(875): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#11 /var/www/html/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(167): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#12 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#13 /var/www/html/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#14 /var/www/html/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#15 /var/www/html/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('', Array)
+#16 /var/www/html/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#17 /var/www/html/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate', Array)
+#18 /var/www/html/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate', Array)
+#19 /var/www/html/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#20 /var/www/html/yii(20): yii\base\Application->run()
+#21 {main}
+Additional Information:
+
+2020-05-26 20:14:11 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HOSTNAME' => '5c234d14c23d'
+    'PHP_VERSION' => '7.1.33'
+    'APACHE_CONFDIR' => '/etc/apache2'
+    'PHP_MD5' => ''
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'GPG_KEYS' => 'A917B1ECDA84AEC2B568FED6F50ABC807BD5DCD0 528995BFEDFBA7191D46839EF9BA0ADA31CBD89E 1729F83938DA44E27BA0F4D3DBDB397470D12172'
+    'PHP_LDFLAGS' => '-Wl,-O1 -Wl,--hash-style=both -pie'
+    'PWD' => '/var/www/html'
+    'HOME' => '/root'
+    'PHP_SHA256' => 'bd7c0a9bd5433289ee01fd440af3715309faf583f75832b64fe169c100d52968'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'TERM' => 'xterm'
+    'PHP_URL' => 'https://www.php.net/get/php-7.1.33.tar.xz/from/this/mirror'
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--with-apxs2 --disable-cgi'
+    'SHLVL' => '1'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'APACHE_ENVVARS' => '/etc/apache2/envvars'
+    'APACHE_RUN_USER' => '#1000'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHP_EXTRA_BUILD_DEPS' => 'apache2-dev'
+    'PHP_ASC_URL' => 'https://www.php.net/get/php-7.1.33.tar.xz.asc/from/this/mirror'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    '_' => '/usr/local/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1590524051.0337
+    'REQUEST_TIME' => 1590524051
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+    'APP_NAME' => 'NSPK'
+    'APP_ID' => 'nspk'
+    'APP_URL' => 'http://localhost'
+    'APP_LANGUAGE' => 'ru-Ru'
+    'APP_ADMIN_EMAIL' => 'admin@example.com'
+    'WEB_PORT' => '8084'
+    'WEB_WORKING_DIR' => '/var/www/html/'
+    'WEB_ROOT_PATH' => '.'
+    'MYSQL_CONNECTION' => 'mysql'
+    'MYSQL_HOST' => 'localhost'
+    'MYSQL_PORT' => '3305'
+    'MYSQL_DATABASE' => 'db_mysql_20190305_nspk'
+    'MYSQL_DATABASE_CHARSET' => 'utf8mb4'
+    'MYSQL_DATABASE_COLLATION' => 'utf8mb4_unicode_ci'
+    'MYSQL_ROOT_USERNAME' => 'root'
+    'MYSQL_ROOT_PASSWORD' => 'rootexample'
+    'MYSQL_RESTART' => 'always'
+    'MYSQL_PATH' => './docker/databases/mysql'
+    'PHPMYADMIN_PORT' => '8082'
+    'MONGO_DB_CONNECTION' => 'mongo'
+    'MONGO_DB_HOST' => 'mongo'
+    'MONGO_DB_PORT' => '27017'
+    'MONGO_DB_DATABASE' => 'db_mongodb_20190305_nspk'
+    'MONGO_DB_ROOT_USERNAME' => 'root'
+    'MONGO_DB_ROOT_PASSWORD' => 'example'
+    'MONGO_DB_USERNAME' => 'user'
+    'MONGO_DB_PASSWORD' => 'example'
+    'MONGO_PATH' => './docker/databases/mongodb'
+    'MONGO_EXPRESS_PORT' => '8081'
+    'MONGO_EXPRESS_RESTART' => 'always'
+    'COOKIE_VALIDATION_KEY' => 'goBO9MdWpxXT69otHTNWPU0CBB0b6VjF'
+]
+2020-05-26 20:23:29 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [2002] Connection refused in /var/www/html/vendor/yiisoft/yii2/db/Connection.php:705
+Stack trace:
+#0 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(705): PDO->__construct('mysql:host=127....', 'root', 'rootexample', NULL)
+#1 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(626): yii\db\Connection->createPdoInstance()
+#2 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(1022): yii\db\Connection->open()
+#3 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(1009): yii\db\Connection->getMasterPdo()
+#4 /var/www/html/vendor/yiisoft/yii2/db/Command.php(255): yii\db\Connection->getSlavePdo()
+#5 /var/www/html/vendor/yiisoft/yii2/db/Command.php(1154): yii\db\Command->prepare(true)
+#6 /var/www/html/vendor/yiisoft/yii2/db/Command.php(401): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /var/www/html/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#8 /var/www/html/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 /var/www/html/vendor/yiisoft/yii2/db/Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#10 /var/www/html/vendor/yiisoft/yii2/db/Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#11 /var/www/html/vendor/yiisoft/yii2/console/controllers/MigrateController.php(371): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#12 /var/www/html/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(633): yii\console\controllers\MigrateController->getMigrationNameLimit()
+#13 [internal function]: yii\console\controllers\BaseMigrateController->actionCreate('user')
+#14 /var/www/html/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /var/www/html/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#16 /var/www/html/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('create', Array)
+#17 /var/www/html/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create', Array)
+#18 /var/www/html/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create', Array)
+#19 /var/www/html/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create', Array)
+#20 /var/www/html/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#21 /var/www/html/yii(20): yii\base\Application->run()
+#22 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] Connection refused in /var/www/html/vendor/yiisoft/yii2/db/Connection.php:637
+Stack trace:
+#0 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(1022): yii\db\Connection->open()
+#1 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(1009): yii\db\Connection->getMasterPdo()
+#2 /var/www/html/vendor/yiisoft/yii2/db/Command.php(255): yii\db\Connection->getSlavePdo()
+#3 /var/www/html/vendor/yiisoft/yii2/db/Command.php(1154): yii\db\Command->prepare(true)
+#4 /var/www/html/vendor/yiisoft/yii2/db/Command.php(401): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 /var/www/html/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#6 /var/www/html/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 /var/www/html/vendor/yiisoft/yii2/db/Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#8 /var/www/html/vendor/yiisoft/yii2/db/Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#9 /var/www/html/vendor/yiisoft/yii2/console/controllers/MigrateController.php(371): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#10 /var/www/html/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(633): yii\console\controllers\MigrateController->getMigrationNameLimit()
+#11 [internal function]: yii\console\controllers\BaseMigrateController->actionCreate('user')
+#12 /var/www/html/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#13 /var/www/html/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#14 /var/www/html/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('create', Array)
+#15 /var/www/html/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create', Array)
+#16 /var/www/html/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create', Array)
+#17 /var/www/html/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create', Array)
+#18 /var/www/html/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#19 /var/www/html/yii(20): yii\base\Application->run()
+#20 {main}
+Additional Information:
+
+2020-05-26 20:23:29 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HOSTNAME' => '5c234d14c23d'
+    'PHP_VERSION' => '7.1.33'
+    'APACHE_CONFDIR' => '/etc/apache2'
+    'PHP_MD5' => ''
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'GPG_KEYS' => 'A917B1ECDA84AEC2B568FED6F50ABC807BD5DCD0 528995BFEDFBA7191D46839EF9BA0ADA31CBD89E 1729F83938DA44E27BA0F4D3DBDB397470D12172'
+    'PHP_LDFLAGS' => '-Wl,-O1 -Wl,--hash-style=both -pie'
+    'PWD' => '/var/www/html'
+    'HOME' => '/root'
+    'PHP_SHA256' => 'bd7c0a9bd5433289ee01fd440af3715309faf583f75832b64fe169c100d52968'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'TERM' => 'xterm'
+    'PHP_URL' => 'https://www.php.net/get/php-7.1.33.tar.xz/from/this/mirror'
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--with-apxs2 --disable-cgi'
+    'SHLVL' => '1'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'APACHE_ENVVARS' => '/etc/apache2/envvars'
+    'APACHE_RUN_USER' => '#1000'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHP_EXTRA_BUILD_DEPS' => 'apache2-dev'
+    'PHP_ASC_URL' => 'https://www.php.net/get/php-7.1.33.tar.xz.asc/from/this/mirror'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    '_' => '/usr/local/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1590524609.6542
+    'REQUEST_TIME' => 1590524609
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create'
+        2 => 'user'
+    ]
+    'argc' => 3
+    'APP_NAME' => 'NSPK'
+    'APP_ID' => 'nspk'
+    'APP_URL' => 'http://localhost'
+    'APP_LANGUAGE' => 'ru-Ru'
+    'APP_ADMIN_EMAIL' => 'admin@example.com'
+    'WEB_PORT' => '8084'
+    'WEB_WORKING_DIR' => '/var/www/html/'
+    'WEB_ROOT_PATH' => '.'
+    'MYSQL_CONNECTION' => 'mysql'
+    'MYSQL_HOST' => '127.0.0.1'
+    'MYSQL_PORT' => '3305'
+    'MYSQL_DATABASE' => 'db_mysql_20190305_nspk'
+    'MYSQL_DATABASE_CHARSET' => 'utf8mb4'
+    'MYSQL_DATABASE_COLLATION' => 'utf8mb4_unicode_ci'
+    'MYSQL_ROOT_USERNAME' => 'root'
+    'MYSQL_ROOT_PASSWORD' => 'rootexample'
+    'MYSQL_RESTART' => 'always'
+    'MYSQL_PATH' => './docker/databases/mysql'
+    'PHPMYADMIN_PORT' => '8082'
+    'MONGO_DB_CONNECTION' => 'mongo'
+    'MONGO_DB_HOST' => 'mongo'
+    'MONGO_DB_PORT' => '27017'
+    'MONGO_DB_DATABASE' => 'db_mongodb_20190305_nspk'
+    'MONGO_DB_ROOT_USERNAME' => 'root'
+    'MONGO_DB_ROOT_PASSWORD' => 'example'
+    'MONGO_DB_USERNAME' => 'user'
+    'MONGO_DB_PASSWORD' => 'example'
+    'MONGO_PATH' => './docker/databases/mongodb'
+    'MONGO_EXPRESS_PORT' => '8081'
+    'MONGO_EXPRESS_RESTART' => 'always'
+    'COOKIE_VALIDATION_KEY' => 'goBO9MdWpxXT69otHTNWPU0CBB0b6VjF'
+]
+2020-05-26 20:24:12 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [2002] Connection refused in /var/www/html/vendor/yiisoft/yii2/db/Connection.php:705
+Stack trace:
+#0 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(705): PDO->__construct('mysql:host=127....', 'root', 'rootexample', NULL)
+#1 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(626): yii\db\Connection->createPdoInstance()
+#2 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(1022): yii\db\Connection->open()
+#3 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(1009): yii\db\Connection->getMasterPdo()
+#4 /var/www/html/vendor/yiisoft/yii2/db/Command.php(255): yii\db\Connection->getSlavePdo()
+#5 /var/www/html/vendor/yiisoft/yii2/db/Command.php(1154): yii\db\Command->prepare(true)
+#6 /var/www/html/vendor/yiisoft/yii2/db/Command.php(401): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /var/www/html/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#8 /var/www/html/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 /var/www/html/vendor/yiisoft/yii2/db/Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#10 /var/www/html/vendor/yiisoft/yii2/db/Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#11 /var/www/html/vendor/yiisoft/yii2/console/controllers/MigrateController.php(371): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#12 /var/www/html/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(633): yii\console\controllers\MigrateController->getMigrationNameLimit()
+#13 [internal function]: yii\console\controllers\BaseMigrateController->actionCreate('user')
+#14 /var/www/html/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /var/www/html/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#16 /var/www/html/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('create', Array)
+#17 /var/www/html/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create', Array)
+#18 /var/www/html/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create', Array)
+#19 /var/www/html/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create', Array)
+#20 /var/www/html/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#21 /var/www/html/yii(20): yii\base\Application->run()
+#22 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] Connection refused in /var/www/html/vendor/yiisoft/yii2/db/Connection.php:637
+Stack trace:
+#0 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(1022): yii\db\Connection->open()
+#1 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(1009): yii\db\Connection->getMasterPdo()
+#2 /var/www/html/vendor/yiisoft/yii2/db/Command.php(255): yii\db\Connection->getSlavePdo()
+#3 /var/www/html/vendor/yiisoft/yii2/db/Command.php(1154): yii\db\Command->prepare(true)
+#4 /var/www/html/vendor/yiisoft/yii2/db/Command.php(401): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 /var/www/html/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#6 /var/www/html/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 /var/www/html/vendor/yiisoft/yii2/db/Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#8 /var/www/html/vendor/yiisoft/yii2/db/Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#9 /var/www/html/vendor/yiisoft/yii2/console/controllers/MigrateController.php(371): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#10 /var/www/html/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(633): yii\console\controllers\MigrateController->getMigrationNameLimit()
+#11 [internal function]: yii\console\controllers\BaseMigrateController->actionCreate('user')
+#12 /var/www/html/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#13 /var/www/html/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#14 /var/www/html/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('create', Array)
+#15 /var/www/html/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create', Array)
+#16 /var/www/html/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create', Array)
+#17 /var/www/html/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create', Array)
+#18 /var/www/html/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#19 /var/www/html/yii(20): yii\base\Application->run()
+#20 {main}
+Additional Information:
+
+2020-05-26 20:24:12 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HOSTNAME' => '5c234d14c23d'
+    'PHP_VERSION' => '7.1.33'
+    'APACHE_CONFDIR' => '/etc/apache2'
+    'PHP_MD5' => ''
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'GPG_KEYS' => 'A917B1ECDA84AEC2B568FED6F50ABC807BD5DCD0 528995BFEDFBA7191D46839EF9BA0ADA31CBD89E 1729F83938DA44E27BA0F4D3DBDB397470D12172'
+    'PHP_LDFLAGS' => '-Wl,-O1 -Wl,--hash-style=both -pie'
+    'PWD' => '/var/www/html'
+    'HOME' => '/root'
+    'PHP_SHA256' => 'bd7c0a9bd5433289ee01fd440af3715309faf583f75832b64fe169c100d52968'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'TERM' => 'xterm'
+    'PHP_URL' => 'https://www.php.net/get/php-7.1.33.tar.xz/from/this/mirror'
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--with-apxs2 --disable-cgi'
+    'SHLVL' => '1'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'APACHE_ENVVARS' => '/etc/apache2/envvars'
+    'APACHE_RUN_USER' => '#1000'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHP_EXTRA_BUILD_DEPS' => 'apache2-dev'
+    'PHP_ASC_URL' => 'https://www.php.net/get/php-7.1.33.tar.xz.asc/from/this/mirror'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    '_' => '/usr/local/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1590524652.1785
+    'REQUEST_TIME' => 1590524652
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create'
+        2 => 'user'
+    ]
+    'argc' => 3
+    'APP_NAME' => 'NSPK'
+    'APP_ID' => 'nspk'
+    'APP_URL' => 'http://localhost'
+    'APP_LANGUAGE' => 'ru-Ru'
+    'APP_ADMIN_EMAIL' => 'admin@example.com'
+    'WEB_PORT' => '8084'
+    'WEB_WORKING_DIR' => '/var/www/html/'
+    'WEB_ROOT_PATH' => '.'
+    'MYSQL_CONNECTION' => 'mysql'
+    'MYSQL_HOST' => '127.0.0.1'
+    'MYSQL_PORT' => '3305'
+    'MYSQL_DATABASE' => 'db_mysql_20190305_nspk'
+    'MYSQL_DATABASE_CHARSET' => 'utf8mb4'
+    'MYSQL_DATABASE_COLLATION' => 'utf8mb4_unicode_ci'
+    'MYSQL_ROOT_USERNAME' => 'root'
+    'MYSQL_ROOT_PASSWORD' => 'rootexample'
+    'MYSQL_RESTART' => 'always'
+    'MYSQL_PATH' => './docker/databases/mysql'
+    'PHPMYADMIN_PORT' => '8082'
+    'MONGO_DB_CONNECTION' => 'mongo'
+    'MONGO_DB_HOST' => 'mongo'
+    'MONGO_DB_PORT' => '27017'
+    'MONGO_DB_DATABASE' => 'db_mongodb_20190305_nspk'
+    'MONGO_DB_ROOT_USERNAME' => 'root'
+    'MONGO_DB_ROOT_PASSWORD' => 'example'
+    'MONGO_DB_USERNAME' => 'user'
+    'MONGO_DB_PASSWORD' => 'example'
+    'MONGO_PATH' => './docker/databases/mongodb'
+    'MONGO_EXPRESS_PORT' => '8081'
+    'MONGO_EXPRESS_RESTART' => 'always'
+    'COOKIE_VALIDATION_KEY' => 'goBO9MdWpxXT69otHTNWPU0CBB0b6VjF'
+]
+2020-05-26 20:25:50 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [2002] No such file or directory in /var/www/html/vendor/yiisoft/yii2/db/Connection.php:705
+Stack trace:
+#0 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(705): PDO->__construct('mysql:host=loca...', 'root', 'rootexample', NULL)
+#1 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(626): yii\db\Connection->createPdoInstance()
+#2 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(1022): yii\db\Connection->open()
+#3 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(1009): yii\db\Connection->getMasterPdo()
+#4 /var/www/html/vendor/yiisoft/yii2/db/Command.php(255): yii\db\Connection->getSlavePdo()
+#5 /var/www/html/vendor/yiisoft/yii2/db/Command.php(1154): yii\db\Command->prepare(true)
+#6 /var/www/html/vendor/yiisoft/yii2/db/Command.php(401): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /var/www/html/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#8 /var/www/html/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 /var/www/html/vendor/yiisoft/yii2/db/Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#10 /var/www/html/vendor/yiisoft/yii2/db/Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#11 /var/www/html/vendor/yiisoft/yii2/console/controllers/MigrateController.php(371): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#12 /var/www/html/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(633): yii\console\controllers\MigrateController->getMigrationNameLimit()
+#13 [internal function]: yii\console\controllers\BaseMigrateController->actionCreate('user')
+#14 /var/www/html/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /var/www/html/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#16 /var/www/html/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('create', Array)
+#17 /var/www/html/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create', Array)
+#18 /var/www/html/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create', Array)
+#19 /var/www/html/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create', Array)
+#20 /var/www/html/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#21 /var/www/html/yii(20): yii\base\Application->run()
+#22 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] No such file or directory in /var/www/html/vendor/yiisoft/yii2/db/Connection.php:637
+Stack trace:
+#0 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(1022): yii\db\Connection->open()
+#1 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(1009): yii\db\Connection->getMasterPdo()
+#2 /var/www/html/vendor/yiisoft/yii2/db/Command.php(255): yii\db\Connection->getSlavePdo()
+#3 /var/www/html/vendor/yiisoft/yii2/db/Command.php(1154): yii\db\Command->prepare(true)
+#4 /var/www/html/vendor/yiisoft/yii2/db/Command.php(401): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 /var/www/html/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#6 /var/www/html/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 /var/www/html/vendor/yiisoft/yii2/db/Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#8 /var/www/html/vendor/yiisoft/yii2/db/Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#9 /var/www/html/vendor/yiisoft/yii2/console/controllers/MigrateController.php(371): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#10 /var/www/html/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(633): yii\console\controllers\MigrateController->getMigrationNameLimit()
+#11 [internal function]: yii\console\controllers\BaseMigrateController->actionCreate('user')
+#12 /var/www/html/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#13 /var/www/html/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#14 /var/www/html/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('create', Array)
+#15 /var/www/html/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create', Array)
+#16 /var/www/html/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create', Array)
+#17 /var/www/html/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create', Array)
+#18 /var/www/html/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#19 /var/www/html/yii(20): yii\base\Application->run()
+#20 {main}
+Additional Information:
+
+2020-05-26 20:25:50 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HOSTNAME' => '5c234d14c23d'
+    'PHP_VERSION' => '7.1.33'
+    'APACHE_CONFDIR' => '/etc/apache2'
+    'PHP_MD5' => ''
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'GPG_KEYS' => 'A917B1ECDA84AEC2B568FED6F50ABC807BD5DCD0 528995BFEDFBA7191D46839EF9BA0ADA31CBD89E 1729F83938DA44E27BA0F4D3DBDB397470D12172'
+    'PHP_LDFLAGS' => '-Wl,-O1 -Wl,--hash-style=both -pie'
+    'PWD' => '/var/www/html'
+    'HOME' => '/root'
+    'PHP_SHA256' => 'bd7c0a9bd5433289ee01fd440af3715309faf583f75832b64fe169c100d52968'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'TERM' => 'xterm'
+    'PHP_URL' => 'https://www.php.net/get/php-7.1.33.tar.xz/from/this/mirror'
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--with-apxs2 --disable-cgi'
+    'SHLVL' => '1'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'APACHE_ENVVARS' => '/etc/apache2/envvars'
+    'APACHE_RUN_USER' => '#1000'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHP_EXTRA_BUILD_DEPS' => 'apache2-dev'
+    'PHP_ASC_URL' => 'https://www.php.net/get/php-7.1.33.tar.xz.asc/from/this/mirror'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    '_' => '/usr/local/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1590524750.5469
+    'REQUEST_TIME' => 1590524750
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create'
+        2 => 'user'
+    ]
+    'argc' => 3
+    'APP_NAME' => 'NSPK'
+    'APP_ID' => 'nspk'
+    'APP_URL' => 'http://localhost'
+    'APP_LANGUAGE' => 'ru-Ru'
+    'APP_ADMIN_EMAIL' => 'admin@example.com'
+    'WEB_PORT' => '8084'
+    'WEB_WORKING_DIR' => '/var/www/html/'
+    'WEB_ROOT_PATH' => '.'
+    'MYSQL_CONNECTION' => 'mysql'
+    'MYSQL_HOST' => 'localhost'
+    'MYSQL_PORT' => '3305'
+    'MYSQL_DATABASE' => 'db_mysql_20190305_nspk'
+    'MYSQL_DATABASE_CHARSET' => 'utf8mb4'
+    'MYSQL_DATABASE_COLLATION' => 'utf8mb4_unicode_ci'
+    'MYSQL_ROOT_USERNAME' => 'root'
+    'MYSQL_ROOT_PASSWORD' => 'rootexample'
+    'MYSQL_RESTART' => 'always'
+    'MYSQL_PATH' => './docker/databases/mysql'
+    'PHPMYADMIN_PORT' => '8082'
+    'MONGO_DB_CONNECTION' => 'mongo'
+    'MONGO_DB_HOST' => 'mongo'
+    'MONGO_DB_PORT' => '27017'
+    'MONGO_DB_DATABASE' => 'db_mongodb_20190305_nspk'
+    'MONGO_DB_ROOT_USERNAME' => 'root'
+    'MONGO_DB_ROOT_PASSWORD' => 'example'
+    'MONGO_DB_USERNAME' => 'user'
+    'MONGO_DB_PASSWORD' => 'example'
+    'MONGO_PATH' => './docker/databases/mongodb'
+    'MONGO_EXPRESS_PORT' => '8081'
+    'MONGO_EXPRESS_RESTART' => 'always'
+    'COOKIE_VALIDATION_KEY' => 'goBO9MdWpxXT69otHTNWPU0CBB0b6VjF'
+]
+2020-05-26 20:32:39 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [2002] Connection refused in /var/www/html/vendor/yiisoft/yii2/db/Connection.php:705
+Stack trace:
+#0 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(705): PDO->__construct('mysql:host=mysq...', 'root', 'rootexample', NULL)
+#1 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(626): yii\db\Connection->createPdoInstance()
+#2 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(1022): yii\db\Connection->open()
+#3 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(1009): yii\db\Connection->getMasterPdo()
+#4 /var/www/html/vendor/yiisoft/yii2/db/Command.php(255): yii\db\Connection->getSlavePdo()
+#5 /var/www/html/vendor/yiisoft/yii2/db/Command.php(1154): yii\db\Command->prepare(true)
+#6 /var/www/html/vendor/yiisoft/yii2/db/Command.php(401): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /var/www/html/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#8 /var/www/html/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 /var/www/html/vendor/yiisoft/yii2/db/Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#10 /var/www/html/vendor/yiisoft/yii2/db/Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#11 /var/www/html/vendor/yiisoft/yii2/console/controllers/MigrateController.php(371): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#12 /var/www/html/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(633): yii\console\controllers\MigrateController->getMigrationNameLimit()
+#13 [internal function]: yii\console\controllers\BaseMigrateController->actionCreate('user')
+#14 /var/www/html/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /var/www/html/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#16 /var/www/html/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('create', Array)
+#17 /var/www/html/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create', Array)
+#18 /var/www/html/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create', Array)
+#19 /var/www/html/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create', Array)
+#20 /var/www/html/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#21 /var/www/html/yii(20): yii\base\Application->run()
+#22 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] Connection refused in /var/www/html/vendor/yiisoft/yii2/db/Connection.php:637
+Stack trace:
+#0 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(1022): yii\db\Connection->open()
+#1 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(1009): yii\db\Connection->getMasterPdo()
+#2 /var/www/html/vendor/yiisoft/yii2/db/Command.php(255): yii\db\Connection->getSlavePdo()
+#3 /var/www/html/vendor/yiisoft/yii2/db/Command.php(1154): yii\db\Command->prepare(true)
+#4 /var/www/html/vendor/yiisoft/yii2/db/Command.php(401): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 /var/www/html/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#6 /var/www/html/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 /var/www/html/vendor/yiisoft/yii2/db/Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#8 /var/www/html/vendor/yiisoft/yii2/db/Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#9 /var/www/html/vendor/yiisoft/yii2/console/controllers/MigrateController.php(371): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#10 /var/www/html/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(633): yii\console\controllers\MigrateController->getMigrationNameLimit()
+#11 [internal function]: yii\console\controllers\BaseMigrateController->actionCreate('user')
+#12 /var/www/html/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#13 /var/www/html/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#14 /var/www/html/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('create', Array)
+#15 /var/www/html/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create', Array)
+#16 /var/www/html/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create', Array)
+#17 /var/www/html/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create', Array)
+#18 /var/www/html/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#19 /var/www/html/yii(20): yii\base\Application->run()
+#20 {main}
+Additional Information:
+
+2020-05-26 20:32:39 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HOSTNAME' => '5c234d14c23d'
+    'PHP_VERSION' => '7.1.33'
+    'APACHE_CONFDIR' => '/etc/apache2'
+    'PHP_MD5' => ''
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'GPG_KEYS' => 'A917B1ECDA84AEC2B568FED6F50ABC807BD5DCD0 528995BFEDFBA7191D46839EF9BA0ADA31CBD89E 1729F83938DA44E27BA0F4D3DBDB397470D12172'
+    'PHP_LDFLAGS' => '-Wl,-O1 -Wl,--hash-style=both -pie'
+    'PWD' => '/var/www/html'
+    'HOME' => '/root'
+    'PHP_SHA256' => 'bd7c0a9bd5433289ee01fd440af3715309faf583f75832b64fe169c100d52968'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'TERM' => 'xterm'
+    'PHP_URL' => 'https://www.php.net/get/php-7.1.33.tar.xz/from/this/mirror'
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--with-apxs2 --disable-cgi'
+    'SHLVL' => '1'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'APACHE_ENVVARS' => '/etc/apache2/envvars'
+    'APACHE_RUN_USER' => '#1000'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHP_EXTRA_BUILD_DEPS' => 'apache2-dev'
+    'PHP_ASC_URL' => 'https://www.php.net/get/php-7.1.33.tar.xz.asc/from/this/mirror'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    '_' => '/usr/local/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1590525159.9433
+    'REQUEST_TIME' => 1590525159
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create'
+        2 => 'user'
+    ]
+    'argc' => 3
+    'APP_NAME' => 'NSPK'
+    'APP_ID' => 'nspk'
+    'APP_URL' => 'http://localhost'
+    'APP_LANGUAGE' => 'ru-Ru'
+    'APP_ADMIN_EMAIL' => 'admin@example.com'
+    'WEB_PORT' => '8084'
+    'WEB_WORKING_DIR' => '/var/www/html/'
+    'WEB_ROOT_PATH' => '.'
+    'MYSQL_CONNECTION' => 'mysql'
+    'MYSQL_HOST' => 'mysql'
+    'MYSQL_PORT' => '3305'
+    'MYSQL_DATABASE' => 'db_mysql_20190305_nspk'
+    'MYSQL_DATABASE_CHARSET' => 'utf8mb4'
+    'MYSQL_DATABASE_COLLATION' => 'utf8mb4_unicode_ci'
+    'MYSQL_ROOT_USERNAME' => 'root'
+    'MYSQL_ROOT_PASSWORD' => 'rootexample'
+    'MYSQL_RESTART' => 'always'
+    'MYSQL_PATH' => './docker/databases/mysql'
+    'PHPMYADMIN_PORT' => '8082'
+    'MONGO_DB_CONNECTION' => 'mongo'
+    'MONGO_DB_HOST' => 'mongo'
+    'MONGO_DB_PORT' => '27017'
+    'MONGO_DB_DATABASE' => 'db_mongodb_20190305_nspk'
+    'MONGO_DB_ROOT_USERNAME' => 'root'
+    'MONGO_DB_ROOT_PASSWORD' => 'example'
+    'MONGO_DB_USERNAME' => 'user'
+    'MONGO_DB_PASSWORD' => 'example'
+    'MONGO_PATH' => './docker/databases/mongodb'
+    'MONGO_EXPRESS_PORT' => '8081'
+    'MONGO_EXPRESS_RESTART' => 'always'
+    'COOKIE_VALIDATION_KEY' => 'goBO9MdWpxXT69otHTNWPU0CBB0b6VjF'
+]
+2020-05-26 20:38:26 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [2002] Connection refused in /var/www/html/vendor/yiisoft/yii2/db/Connection.php:705
+Stack trace:
+#0 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(705): PDO->__construct('mysql:host=mysq...', 'root', 'rootexample', NULL)
+#1 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(626): yii\db\Connection->createPdoInstance()
+#2 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(1022): yii\db\Connection->open()
+#3 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(1009): yii\db\Connection->getMasterPdo()
+#4 /var/www/html/vendor/yiisoft/yii2/db/Command.php(255): yii\db\Connection->getSlavePdo()
+#5 /var/www/html/vendor/yiisoft/yii2/db/Command.php(1154): yii\db\Command->prepare(true)
+#6 /var/www/html/vendor/yiisoft/yii2/db/Command.php(401): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /var/www/html/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#8 /var/www/html/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 /var/www/html/vendor/yiisoft/yii2/db/Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#10 /var/www/html/vendor/yiisoft/yii2/db/Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#11 /var/www/html/vendor/yiisoft/yii2/console/controllers/MigrateController.php(371): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#12 /var/www/html/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(633): yii\console\controllers\MigrateController->getMigrationNameLimit()
+#13 [internal function]: yii\console\controllers\BaseMigrateController->actionCreate('user')
+#14 /var/www/html/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /var/www/html/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#16 /var/www/html/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('create', Array)
+#17 /var/www/html/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create', Array)
+#18 /var/www/html/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create', Array)
+#19 /var/www/html/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create', Array)
+#20 /var/www/html/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#21 /var/www/html/yii(20): yii\base\Application->run()
+#22 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] Connection refused in /var/www/html/vendor/yiisoft/yii2/db/Connection.php:637
+Stack trace:
+#0 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(1022): yii\db\Connection->open()
+#1 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(1009): yii\db\Connection->getMasterPdo()
+#2 /var/www/html/vendor/yiisoft/yii2/db/Command.php(255): yii\db\Connection->getSlavePdo()
+#3 /var/www/html/vendor/yiisoft/yii2/db/Command.php(1154): yii\db\Command->prepare(true)
+#4 /var/www/html/vendor/yiisoft/yii2/db/Command.php(401): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 /var/www/html/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#6 /var/www/html/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 /var/www/html/vendor/yiisoft/yii2/db/Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#8 /var/www/html/vendor/yiisoft/yii2/db/Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#9 /var/www/html/vendor/yiisoft/yii2/console/controllers/MigrateController.php(371): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#10 /var/www/html/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(633): yii\console\controllers\MigrateController->getMigrationNameLimit()
+#11 [internal function]: yii\console\controllers\BaseMigrateController->actionCreate('user')
+#12 /var/www/html/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#13 /var/www/html/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#14 /var/www/html/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('create', Array)
+#15 /var/www/html/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create', Array)
+#16 /var/www/html/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create', Array)
+#17 /var/www/html/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create', Array)
+#18 /var/www/html/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#19 /var/www/html/yii(20): yii\base\Application->run()
+#20 {main}
+Additional Information:
+
+2020-05-26 20:38:26 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HOSTNAME' => '5c234d14c23d'
+    'PHP_VERSION' => '7.1.33'
+    'APACHE_CONFDIR' => '/etc/apache2'
+    'PHP_MD5' => ''
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'GPG_KEYS' => 'A917B1ECDA84AEC2B568FED6F50ABC807BD5DCD0 528995BFEDFBA7191D46839EF9BA0ADA31CBD89E 1729F83938DA44E27BA0F4D3DBDB397470D12172'
+    'PHP_LDFLAGS' => '-Wl,-O1 -Wl,--hash-style=both -pie'
+    'PWD' => '/var/www/html'
+    'HOME' => '/root'
+    'PHP_SHA256' => 'bd7c0a9bd5433289ee01fd440af3715309faf583f75832b64fe169c100d52968'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'TERM' => 'xterm'
+    'PHP_URL' => 'https://www.php.net/get/php-7.1.33.tar.xz/from/this/mirror'
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--with-apxs2 --disable-cgi'
+    'SHLVL' => '1'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'APACHE_ENVVARS' => '/etc/apache2/envvars'
+    'APACHE_RUN_USER' => '#1000'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHP_EXTRA_BUILD_DEPS' => 'apache2-dev'
+    'PHP_ASC_URL' => 'https://www.php.net/get/php-7.1.33.tar.xz.asc/from/this/mirror'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    '_' => '/usr/local/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1590525506.8065
+    'REQUEST_TIME' => 1590525506
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create'
+        2 => 'user'
+    ]
+    'argc' => 3
+    'APP_NAME' => 'NSPK'
+    'APP_ID' => 'nspk'
+    'APP_URL' => 'http://localhost'
+    'APP_LANGUAGE' => 'ru-Ru'
+    'APP_ADMIN_EMAIL' => 'admin@example.com'
+    'WEB_PORT' => '8084'
+    'WEB_WORKING_DIR' => '/var/www/html/'
+    'WEB_ROOT_PATH' => '.'
+    'MYSQL_CONNECTION' => 'mysql'
+    'MYSQL_HOST' => 'mysql'
+    'MYSQL_PORT' => '3305'
+    'MYSQL_DATABASE' => 'db_mysql_20190305_nspk'
+    'MYSQL_DATABASE_CHARSET' => 'utf8mb4'
+    'MYSQL_DATABASE_COLLATION' => 'utf8mb4_unicode_ci'
+    'MYSQL_ROOT_USERNAME' => 'root'
+    'MYSQL_ROOT_PASSWORD' => 'rootexample'
+    'MYSQL_RESTART' => 'always'
+    'MYSQL_PATH' => './docker/databases/mysql'
+    'PHPMYADMIN_PORT' => '8082'
+    'MONGO_DB_CONNECTION' => 'mongo'
+    'MONGO_DB_HOST' => 'mongo'
+    'MONGO_DB_PORT' => '27017'
+    'MONGO_DB_DATABASE' => 'db_mongodb_20190305_nspk'
+    'MONGO_DB_ROOT_USERNAME' => 'root'
+    'MONGO_DB_ROOT_PASSWORD' => 'example'
+    'MONGO_DB_USERNAME' => 'user'
+    'MONGO_DB_PASSWORD' => 'example'
+    'MONGO_PATH' => './docker/databases/mongodb'
+    'MONGO_EXPRESS_PORT' => '8081'
+    'MONGO_EXPRESS_RESTART' => 'always'
+    'COOKIE_VALIDATION_KEY' => 'goBO9MdWpxXT69otHTNWPU0CBB0b6VjF'
+]
+2020-05-26 20:40:06 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [2002] No such file or directory in /var/www/html/vendor/yiisoft/yii2/db/Connection.php:705
+Stack trace:
+#0 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(705): PDO->__construct('mysql:host=loca...', 'root', 'rootexample', NULL)
+#1 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(626): yii\db\Connection->createPdoInstance()
+#2 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(1022): yii\db\Connection->open()
+#3 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(1009): yii\db\Connection->getMasterPdo()
+#4 /var/www/html/vendor/yiisoft/yii2/db/Command.php(255): yii\db\Connection->getSlavePdo()
+#5 /var/www/html/vendor/yiisoft/yii2/db/Command.php(1154): yii\db\Command->prepare(true)
+#6 /var/www/html/vendor/yiisoft/yii2/db/Command.php(401): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /var/www/html/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#8 /var/www/html/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 /var/www/html/vendor/yiisoft/yii2/db/Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#10 /var/www/html/vendor/yiisoft/yii2/db/Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#11 /var/www/html/vendor/yiisoft/yii2/console/controllers/MigrateController.php(371): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#12 /var/www/html/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(633): yii\console\controllers\MigrateController->getMigrationNameLimit()
+#13 [internal function]: yii\console\controllers\BaseMigrateController->actionCreate('user')
+#14 /var/www/html/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /var/www/html/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#16 /var/www/html/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('create', Array)
+#17 /var/www/html/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create', Array)
+#18 /var/www/html/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create', Array)
+#19 /var/www/html/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create', Array)
+#20 /var/www/html/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#21 /var/www/html/yii(20): yii\base\Application->run()
+#22 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] No such file or directory in /var/www/html/vendor/yiisoft/yii2/db/Connection.php:637
+Stack trace:
+#0 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(1022): yii\db\Connection->open()
+#1 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(1009): yii\db\Connection->getMasterPdo()
+#2 /var/www/html/vendor/yiisoft/yii2/db/Command.php(255): yii\db\Connection->getSlavePdo()
+#3 /var/www/html/vendor/yiisoft/yii2/db/Command.php(1154): yii\db\Command->prepare(true)
+#4 /var/www/html/vendor/yiisoft/yii2/db/Command.php(401): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 /var/www/html/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#6 /var/www/html/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 /var/www/html/vendor/yiisoft/yii2/db/Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#8 /var/www/html/vendor/yiisoft/yii2/db/Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#9 /var/www/html/vendor/yiisoft/yii2/console/controllers/MigrateController.php(371): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#10 /var/www/html/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(633): yii\console\controllers\MigrateController->getMigrationNameLimit()
+#11 [internal function]: yii\console\controllers\BaseMigrateController->actionCreate('user')
+#12 /var/www/html/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#13 /var/www/html/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#14 /var/www/html/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('create', Array)
+#15 /var/www/html/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create', Array)
+#16 /var/www/html/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create', Array)
+#17 /var/www/html/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create', Array)
+#18 /var/www/html/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#19 /var/www/html/yii(20): yii\base\Application->run()
+#20 {main}
+Additional Information:
+
+2020-05-26 20:40:06 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HOSTNAME' => '5c234d14c23d'
+    'PHP_VERSION' => '7.1.33'
+    'APACHE_CONFDIR' => '/etc/apache2'
+    'PHP_MD5' => ''
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'GPG_KEYS' => 'A917B1ECDA84AEC2B568FED6F50ABC807BD5DCD0 528995BFEDFBA7191D46839EF9BA0ADA31CBD89E 1729F83938DA44E27BA0F4D3DBDB397470D12172'
+    'PHP_LDFLAGS' => '-Wl,-O1 -Wl,--hash-style=both -pie'
+    'PWD' => '/var/www/html'
+    'HOME' => '/root'
+    'PHP_SHA256' => 'bd7c0a9bd5433289ee01fd440af3715309faf583f75832b64fe169c100d52968'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'TERM' => 'xterm'
+    'PHP_URL' => 'https://www.php.net/get/php-7.1.33.tar.xz/from/this/mirror'
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--with-apxs2 --disable-cgi'
+    'SHLVL' => '1'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'APACHE_ENVVARS' => '/etc/apache2/envvars'
+    'APACHE_RUN_USER' => '#1000'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHP_EXTRA_BUILD_DEPS' => 'apache2-dev'
+    'PHP_ASC_URL' => 'https://www.php.net/get/php-7.1.33.tar.xz.asc/from/this/mirror'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    '_' => '/usr/local/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1590525606.3165
+    'REQUEST_TIME' => 1590525606
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create'
+        2 => 'user'
+    ]
+    'argc' => 3
+    'APP_NAME' => 'NSPK'
+    'APP_ID' => 'nspk'
+    'APP_URL' => 'http://localhost'
+    'APP_LANGUAGE' => 'ru-Ru'
+    'APP_ADMIN_EMAIL' => 'admin@example.com'
+    'WEB_PORT' => '8084'
+    'WEB_WORKING_DIR' => '/var/www/html/'
+    'WEB_ROOT_PATH' => '.'
+    'MYSQL_CONNECTION' => 'mysql'
+    'MYSQL_HOST' => 'localhost'
+    'MYSQL_PORT' => '3305'
+    'MYSQL_DATABASE' => 'db_mysql_20190305_nspk'
+    'MYSQL_DATABASE_CHARSET' => 'utf8mb4'
+    'MYSQL_DATABASE_COLLATION' => 'utf8mb4_unicode_ci'
+    'MYSQL_ROOT_USERNAME' => 'root'
+    'MYSQL_ROOT_PASSWORD' => 'rootexample'
+    'MYSQL_RESTART' => 'always'
+    'MYSQL_PATH' => './docker/databases/mysql'
+    'PHPMYADMIN_PORT' => '8082'
+    'MONGO_DB_CONNECTION' => 'mongo'
+    'MONGO_DB_HOST' => 'mongo'
+    'MONGO_DB_PORT' => '27017'
+    'MONGO_DB_DATABASE' => 'db_mongodb_20190305_nspk'
+    'MONGO_DB_ROOT_USERNAME' => 'root'
+    'MONGO_DB_ROOT_PASSWORD' => 'example'
+    'MONGO_DB_USERNAME' => 'user'
+    'MONGO_DB_PASSWORD' => 'example'
+    'MONGO_PATH' => './docker/databases/mongodb'
+    'MONGO_EXPRESS_PORT' => '8081'
+    'MONGO_EXPRESS_RESTART' => 'always'
+    'COOKIE_VALIDATION_KEY' => 'goBO9MdWpxXT69otHTNWPU0CBB0b6VjF'
+]
+2020-05-26 20:42:39 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [1049] Unknown database 'db_mysql_20190305_nspk' in /var/www/html/vendor/yiisoft/yii2/db/Connection.php:705
+Stack trace:
+#0 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(705): PDO->__construct('mysql:host=mysq...', 'root', 'rootexample', NULL)
+#1 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(626): yii\db\Connection->createPdoInstance()
+#2 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(1022): yii\db\Connection->open()
+#3 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(1009): yii\db\Connection->getMasterPdo()
+#4 /var/www/html/vendor/yiisoft/yii2/db/Command.php(255): yii\db\Connection->getSlavePdo()
+#5 /var/www/html/vendor/yiisoft/yii2/db/Command.php(1154): yii\db\Command->prepare(true)
+#6 /var/www/html/vendor/yiisoft/yii2/db/Command.php(401): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /var/www/html/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#8 /var/www/html/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 /var/www/html/vendor/yiisoft/yii2/db/Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#10 /var/www/html/vendor/yiisoft/yii2/db/Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#11 /var/www/html/vendor/yiisoft/yii2/console/controllers/MigrateController.php(371): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#12 /var/www/html/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(633): yii\console\controllers\MigrateController->getMigrationNameLimit()
+#13 [internal function]: yii\console\controllers\BaseMigrateController->actionCreate('user')
+#14 /var/www/html/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /var/www/html/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#16 /var/www/html/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('create', Array)
+#17 /var/www/html/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create', Array)
+#18 /var/www/html/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create', Array)
+#19 /var/www/html/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create', Array)
+#20 /var/www/html/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#21 /var/www/html/yii(20): yii\base\Application->run()
+#22 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [1049] Unknown database 'db_mysql_20190305_nspk' in /var/www/html/vendor/yiisoft/yii2/db/Connection.php:637
+Stack trace:
+#0 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(1022): yii\db\Connection->open()
+#1 /var/www/html/vendor/yiisoft/yii2/db/Connection.php(1009): yii\db\Connection->getMasterPdo()
+#2 /var/www/html/vendor/yiisoft/yii2/db/Command.php(255): yii\db\Connection->getSlavePdo()
+#3 /var/www/html/vendor/yiisoft/yii2/db/Command.php(1154): yii\db\Command->prepare(true)
+#4 /var/www/html/vendor/yiisoft/yii2/db/Command.php(401): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 /var/www/html/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#6 /var/www/html/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 /var/www/html/vendor/yiisoft/yii2/db/Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#8 /var/www/html/vendor/yiisoft/yii2/db/Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#9 /var/www/html/vendor/yiisoft/yii2/console/controllers/MigrateController.php(371): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#10 /var/www/html/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(633): yii\console\controllers\MigrateController->getMigrationNameLimit()
+#11 [internal function]: yii\console\controllers\BaseMigrateController->actionCreate('user')
+#12 /var/www/html/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#13 /var/www/html/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#14 /var/www/html/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('create', Array)
+#15 /var/www/html/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create', Array)
+#16 /var/www/html/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create', Array)
+#17 /var/www/html/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create', Array)
+#18 /var/www/html/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#19 /var/www/html/yii(20): yii\base\Application->run()
+#20 {main}
+Additional Information:
+
+2020-05-26 20:42:39 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HOSTNAME' => '5c234d14c23d'
+    'PHP_VERSION' => '7.1.33'
+    'APACHE_CONFDIR' => '/etc/apache2'
+    'PHP_MD5' => ''
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'GPG_KEYS' => 'A917B1ECDA84AEC2B568FED6F50ABC807BD5DCD0 528995BFEDFBA7191D46839EF9BA0ADA31CBD89E 1729F83938DA44E27BA0F4D3DBDB397470D12172'
+    'PHP_LDFLAGS' => '-Wl,-O1 -Wl,--hash-style=both -pie'
+    'PWD' => '/var/www/html'
+    'HOME' => '/root'
+    'PHP_SHA256' => 'bd7c0a9bd5433289ee01fd440af3715309faf583f75832b64fe169c100d52968'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'TERM' => 'xterm'
+    'PHP_URL' => 'https://www.php.net/get/php-7.1.33.tar.xz/from/this/mirror'
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--with-apxs2 --disable-cgi'
+    'SHLVL' => '1'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'APACHE_ENVVARS' => '/etc/apache2/envvars'
+    'APACHE_RUN_USER' => '#1000'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHP_EXTRA_BUILD_DEPS' => 'apache2-dev'
+    'PHP_ASC_URL' => 'https://www.php.net/get/php-7.1.33.tar.xz.asc/from/this/mirror'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    '_' => '/usr/local/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1590525759.7298
+    'REQUEST_TIME' => 1590525759
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create'
+        2 => 'user'
+    ]
+    'argc' => 3
+    'APP_NAME' => 'NSPK'
+    'APP_ID' => 'nspk'
+    'APP_URL' => 'http://localhost'
+    'APP_LANGUAGE' => 'ru-Ru'
+    'APP_ADMIN_EMAIL' => 'admin@example.com'
+    'WEB_PORT' => '8084'
+    'WEB_WORKING_DIR' => '/var/www/html/'
+    'WEB_ROOT_PATH' => '.'
+    'MYSQL_CONNECTION' => 'mysql'
+    'MYSQL_HOST' => 'mysql'
+    'MYSQL_PORT' => '3306'
+    'MYSQL_DATABASE' => 'db_mysql_20190305_nspk'
+    'MYSQL_DATABASE_CHARSET' => 'utf8mb4'
+    'MYSQL_DATABASE_COLLATION' => 'utf8mb4_unicode_ci'
+    'MYSQL_ROOT_USERNAME' => 'root'
+    'MYSQL_ROOT_PASSWORD' => 'rootexample'
+    'MYSQL_RESTART' => 'always'
+    'MYSQL_PATH' => './docker/databases/mysql'
+    'PHPMYADMIN_PORT' => '8082'
+    'MONGO_DB_CONNECTION' => 'mongo'
+    'MONGO_DB_HOST' => 'mongo'
+    'MONGO_DB_PORT' => '27017'
+    'MONGO_DB_DATABASE' => 'db_mongodb_20190305_nspk'
+    'MONGO_DB_ROOT_USERNAME' => 'root'
+    'MONGO_DB_ROOT_PASSWORD' => 'example'
+    'MONGO_DB_USERNAME' => 'user'
+    'MONGO_DB_PASSWORD' => 'example'
+    'MONGO_PATH' => './docker/databases/mongodb'
+    'MONGO_EXPRESS_PORT' => '8081'
+    'MONGO_EXPRESS_RESTART' => 'always'
+    'COOKIE_VALIDATION_KEY' => 'goBO9MdWpxXT69otHTNWPU0CBB0b6VjF'
+]

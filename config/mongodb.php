@@ -2,7 +2,7 @@
 
 return [
     'class' => '\yii\mongodb\Connection',
-    'dsn' => 'mongodb://'
+    'dsn'   => 'mongodb://'
         . env('MONGO_DB_USERNAME')
         . ':'
         . env('MONGO_DB_PASSWORD')
