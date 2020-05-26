@@ -1,0 +1,492 @@
+2020-05-26 18:42:08 [172.22.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.22.0.1
+    in /var/www/html/views/layouts/main.php:74
+    in /var/www/html/controllers/SiteController.php:64
+2020-05-26 18:42:08 [172.22.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.22.0.1
+2020-05-26 18:42:08 [172.22.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PGADMIN_LANGUAGE' => 'ru'
+    'wordpress_test_cookie' => 'WP Cookie check'
+    'wordpress_logged_in_37d007a56d816107ce5b52c10342db37' => 'root|1587155768|pNxownJOhFHncP0HM0SzgxPo50wCcO1bA5FZFFrcusI|b1a1bbc111590bd5d0750b39a347b09b15884c8f67f377bfdbcbbcea7ec20da9'
+    'wp-settings-time-1' => '1586982971'
+    'PHPSESSID' => '49963d39990cf8fd410860ae6d50a59c'
+    'mongo-express' => 's:FQ_Mvyzca5i733cLQkflbFwHHFX81KUk.Wn6WgnglV41mXyo9pP+uFJ6m+UAD89MtOVRW6ZPSDik'
+    '_csrf' => '5de3e77faca8b44690fc5d131a41011a9cd9db7be9efc2a2b1086d87901cfcc5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"25z1gfhcVPBzi-zGFgKpjf_P7RdPBzzV\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8084'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PGADMIN_LANGUAGE=ru; wordpress_test_cookie=WP+Cookie+check; wordpress_logged_in_37d007a56d816107ce5b52c10342db37=root%7C1587155768%7CpNxownJOhFHncP0HM0SzgxPo50wCcO1bA5FZFFrcusI%7Cb1a1bbc111590bd5d0750b39a347b09b15884c8f67f377bfdbcbbcea7ec20da9; wp-settings-time-1=1586982971; PHPSESSID=49963d39990cf8fd410860ae6d50a59c; mongo-express=s%3AFQ_Mvyzca5i733cLQkflbFwHHFX81KUk.Wn6WgnglV41mXyo9pP%2BuFJ6m%2BUAD89MtOVRW6ZPSDik; _csrf=5de3e77faca8b44690fc5d131a41011a9cd9db7be9efc2a2b1086d87901cfcc5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2225z1gfhcVPBzi-zGFgKpjf_P7RdPBzzV%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at localhost Port 8084</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '172.22.0.2'
+    'SERVER_PORT' => '8084'
+    'REMOTE_ADDR' => '172.22.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/web/index.php'
+    'REMOTE_PORT' => '53032'
+    'REDIRECT_URL' => '/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1590518528.436
+    'REQUEST_TIME' => 1590518528
+    'argv' => []
+    'argc' => 0
+    'APP_NAME' => 'NSPK'
+    'APP_ID' => 'nspk'
+    'APP_URL' => 'http://localhost'
+    'APP_LANGUAGE' => 'ru-Ru'
+    'APP_ADMIN_EMAIL' => 'admin@example.com'
+    'WEB_PORT' => '8084'
+    'WEB_WORKING_DIR' => '/var/www/html/'
+    'WEB_ROOT_PATH' => '.'
+    'MYSQL_CONNECTION' => 'mysql'
+    'MYSQL_HOST' => 'localhost'
+    'MYSQL_PORT' => '6033'
+    'MYSQL_DATABASE' => 'test_db'
+    'MYSQL_DATABASE_CHARSET' => 'utf8mb4'
+    'MYSQL_DATABASE_COLLATION' => 'utf8mb4_unicode_ci'
+    'MYSQL_ROOT_USERNAME' => 'root'
+    'MYSQL_ROOT_PASSWORD' => 'root'
+    'MYSQL_RESTART' => 'always'
+    'MYSQL_PATH' => './docker/databases/mysql'
+    'PHPMYADMIN_PORT' => '8083'
+    'MONGO_DB_CONNECTION' => 'mongo'
+    'MONGO_DB_HOST' => 'mongo'
+    'MONGO_DB_PORT' => '27017'
+    'MONGO_DB_DATABASE' => 'db_mongodb_20190305_nspk'
+    'MONGO_DB_ROOT_USERNAME' => 'root'
+    'MONGO_DB_ROOT_PASSWORD' => 'example'
+    'MONGO_DB_USERNAME' => 'user'
+    'MONGO_DB_PASSWORD' => 'example'
+    'MONGO_PATH' => './docker/databases/mongodb'
+    'MONGO_EXPRESS_PORT' => '8082'
+    'MONGO_EXPRESS_RESTART' => 'always'
+    'COOKIE_VALIDATION_KEY' => 'goBO9MdWpxXT69otHTNWPU0CBB0b6VjF'
+]
+2020-05-26 18:43:52 [172.22.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.22.0.1
+    in /var/www/html/views/layouts/main.php:74
+    in /var/www/html/controllers/SiteController.php:64
+2020-05-26 18:43:52 [172.22.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.22.0.1
+2020-05-26 18:43:52 [172.22.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PGADMIN_LANGUAGE' => 'ru'
+    'wordpress_test_cookie' => 'WP Cookie check'
+    'wordpress_logged_in_37d007a56d816107ce5b52c10342db37' => 'root|1587155768|pNxownJOhFHncP0HM0SzgxPo50wCcO1bA5FZFFrcusI|b1a1bbc111590bd5d0750b39a347b09b15884c8f67f377bfdbcbbcea7ec20da9'
+    'wp-settings-time-1' => '1586982971'
+    'PHPSESSID' => '49963d39990cf8fd410860ae6d50a59c'
+    'mongo-express' => 's:FQ_Mvyzca5i733cLQkflbFwHHFX81KUk.Wn6WgnglV41mXyo9pP+uFJ6m+UAD89MtOVRW6ZPSDik'
+    '_csrf' => '5de3e77faca8b44690fc5d131a41011a9cd9db7be9efc2a2b1086d87901cfcc5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"25z1gfhcVPBzi-zGFgKpjf_P7RdPBzzV\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8084'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PGADMIN_LANGUAGE=ru; wordpress_test_cookie=WP+Cookie+check; wordpress_logged_in_37d007a56d816107ce5b52c10342db37=root%7C1587155768%7CpNxownJOhFHncP0HM0SzgxPo50wCcO1bA5FZFFrcusI%7Cb1a1bbc111590bd5d0750b39a347b09b15884c8f67f377bfdbcbbcea7ec20da9; wp-settings-time-1=1586982971; PHPSESSID=49963d39990cf8fd410860ae6d50a59c; mongo-express=s%3AFQ_Mvyzca5i733cLQkflbFwHHFX81KUk.Wn6WgnglV41mXyo9pP%2BuFJ6m%2BUAD89MtOVRW6ZPSDik; _csrf=5de3e77faca8b44690fc5d131a41011a9cd9db7be9efc2a2b1086d87901cfcc5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2225z1gfhcVPBzi-zGFgKpjf_P7RdPBzzV%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at localhost Port 8084</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '172.22.0.2'
+    'SERVER_PORT' => '8084'
+    'REMOTE_ADDR' => '172.22.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/web/index.php'
+    'REMOTE_PORT' => '53072'
+    'REDIRECT_URL' => '/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1590518632.41
+    'REQUEST_TIME' => 1590518632
+    'argv' => []
+    'argc' => 0
+    'APP_NAME' => 'NSPK'
+    'APP_ID' => 'nspk'
+    'APP_URL' => 'http://localhost'
+    'APP_LANGUAGE' => 'ru-Ru'
+    'APP_ADMIN_EMAIL' => 'admin@example.com'
+    'WEB_PORT' => '8084'
+    'WEB_WORKING_DIR' => '/var/www/html/'
+    'WEB_ROOT_PATH' => '.'
+    'MYSQL_CONNECTION' => 'mysql'
+    'MYSQL_HOST' => 'localhost'
+    'MYSQL_PORT' => '6033'
+    'MYSQL_DATABASE' => 'test_db'
+    'MYSQL_DATABASE_CHARSET' => 'utf8mb4'
+    'MYSQL_DATABASE_COLLATION' => 'utf8mb4_unicode_ci'
+    'MYSQL_ROOT_USERNAME' => 'root'
+    'MYSQL_ROOT_PASSWORD' => 'root'
+    'MYSQL_RESTART' => 'always'
+    'MYSQL_PATH' => './docker/databases/mysql'
+    'PHPMYADMIN_PORT' => '8083'
+    'MONGO_DB_CONNECTION' => 'mongo'
+    'MONGO_DB_HOST' => 'mongo'
+    'MONGO_DB_PORT' => '27017'
+    'MONGO_DB_DATABASE' => 'db_mongodb_20190305_nspk'
+    'MONGO_DB_ROOT_USERNAME' => 'root'
+    'MONGO_DB_ROOT_PASSWORD' => 'example'
+    'MONGO_DB_USERNAME' => 'user'
+    'MONGO_DB_PASSWORD' => 'example'
+    'MONGO_PATH' => './docker/databases/mongodb'
+    'MONGO_EXPRESS_PORT' => '8082'
+    'MONGO_EXPRESS_RESTART' => 'always'
+    'COOKIE_VALIDATION_KEY' => 'goBO9MdWpxXT69otHTNWPU0CBB0b6VjF'
+]
+2020-05-26 18:43:53 [172.22.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.22.0.1
+    in /var/www/html/views/layouts/main.php:74
+    in /var/www/html/controllers/SiteController.php:85
+2020-05-26 18:43:53 [172.22.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.22.0.1
+2020-05-26 18:43:53 [172.22.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PGADMIN_LANGUAGE' => 'ru'
+    'wordpress_test_cookie' => 'WP Cookie check'
+    'wordpress_logged_in_37d007a56d816107ce5b52c10342db37' => 'root|1587155768|pNxownJOhFHncP0HM0SzgxPo50wCcO1bA5FZFFrcusI|b1a1bbc111590bd5d0750b39a347b09b15884c8f67f377bfdbcbbcea7ec20da9'
+    'wp-settings-time-1' => '1586982971'
+    'PHPSESSID' => '49963d39990cf8fd410860ae6d50a59c'
+    'mongo-express' => 's:FQ_Mvyzca5i733cLQkflbFwHHFX81KUk.Wn6WgnglV41mXyo9pP+uFJ6m+UAD89MtOVRW6ZPSDik'
+    '_csrf' => '5de3e77faca8b44690fc5d131a41011a9cd9db7be9efc2a2b1086d87901cfcc5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"25z1gfhcVPBzi-zGFgKpjf_P7RdPBzzV\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8084'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8084/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PGADMIN_LANGUAGE=ru; wordpress_test_cookie=WP+Cookie+check; wordpress_logged_in_37d007a56d816107ce5b52c10342db37=root%7C1587155768%7CpNxownJOhFHncP0HM0SzgxPo50wCcO1bA5FZFFrcusI%7Cb1a1bbc111590bd5d0750b39a347b09b15884c8f67f377bfdbcbbcea7ec20da9; wp-settings-time-1=1586982971; PHPSESSID=49963d39990cf8fd410860ae6d50a59c; mongo-express=s%3AFQ_Mvyzca5i733cLQkflbFwHHFX81KUk.Wn6WgnglV41mXyo9pP%2BuFJ6m%2BUAD89MtOVRW6ZPSDik; _csrf=5de3e77faca8b44690fc5d131a41011a9cd9db7be9efc2a2b1086d87901cfcc5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2225z1gfhcVPBzi-zGFgKpjf_P7RdPBzzV%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at localhost Port 8084</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '172.22.0.2'
+    'SERVER_PORT' => '8084'
+    'REMOTE_ADDR' => '172.22.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/web/index.php'
+    'REMOTE_PORT' => '53076'
+    'REDIRECT_URL' => '/site/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/login'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1590518633.379
+    'REQUEST_TIME' => 1590518633
+    'argv' => []
+    'argc' => 0
+    'APP_NAME' => 'NSPK'
+    'APP_ID' => 'nspk'
+    'APP_URL' => 'http://localhost'
+    'APP_LANGUAGE' => 'ru-Ru'
+    'APP_ADMIN_EMAIL' => 'admin@example.com'
+    'WEB_PORT' => '8084'
+    'WEB_WORKING_DIR' => '/var/www/html/'
+    'WEB_ROOT_PATH' => '.'
+    'MYSQL_CONNECTION' => 'mysql'
+    'MYSQL_HOST' => 'localhost'
+    'MYSQL_PORT' => '6033'
+    'MYSQL_DATABASE' => 'test_db'
+    'MYSQL_DATABASE_CHARSET' => 'utf8mb4'
+    'MYSQL_DATABASE_COLLATION' => 'utf8mb4_unicode_ci'
+    'MYSQL_ROOT_USERNAME' => 'root'
+    'MYSQL_ROOT_PASSWORD' => 'root'
+    'MYSQL_RESTART' => 'always'
+    'MYSQL_PATH' => './docker/databases/mysql'
+    'PHPMYADMIN_PORT' => '8083'
+    'MONGO_DB_CONNECTION' => 'mongo'
+    'MONGO_DB_HOST' => 'mongo'
+    'MONGO_DB_PORT' => '27017'
+    'MONGO_DB_DATABASE' => 'db_mongodb_20190305_nspk'
+    'MONGO_DB_ROOT_USERNAME' => 'root'
+    'MONGO_DB_ROOT_PASSWORD' => 'example'
+    'MONGO_DB_USERNAME' => 'user'
+    'MONGO_DB_PASSWORD' => 'example'
+    'MONGO_PATH' => './docker/databases/mongodb'
+    'MONGO_EXPRESS_PORT' => '8082'
+    'MONGO_EXPRESS_RESTART' => 'always'
+    'COOKIE_VALIDATION_KEY' => 'goBO9MdWpxXT69otHTNWPU0CBB0b6VjF'
+]
+2020-05-26 18:49:07 [172.22.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.22.0.1
+    in /var/www/html/views/layouts/main.php:74
+    in /var/www/html/controllers/SiteController.php:85
+2020-05-26 18:49:07 [172.22.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.22.0.1
+2020-05-26 18:49:07 [172.22.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PGADMIN_LANGUAGE' => 'ru'
+    'wordpress_test_cookie' => 'WP Cookie check'
+    'wordpress_logged_in_37d007a56d816107ce5b52c10342db37' => 'root|1587155768|pNxownJOhFHncP0HM0SzgxPo50wCcO1bA5FZFFrcusI|b1a1bbc111590bd5d0750b39a347b09b15884c8f67f377bfdbcbbcea7ec20da9'
+    'wp-settings-time-1' => '1586982971'
+    'PHPSESSID' => '49963d39990cf8fd410860ae6d50a59c'
+    'mongo-express' => 's:FQ_Mvyzca5i733cLQkflbFwHHFX81KUk.Wn6WgnglV41mXyo9pP+uFJ6m+UAD89MtOVRW6ZPSDik'
+    '_csrf' => '5de3e77faca8b44690fc5d131a41011a9cd9db7be9efc2a2b1086d87901cfcc5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"25z1gfhcVPBzi-zGFgKpjf_P7RdPBzzV\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8084'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8084/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PGADMIN_LANGUAGE=ru; wordpress_test_cookie=WP+Cookie+check; wordpress_logged_in_37d007a56d816107ce5b52c10342db37=root%7C1587155768%7CpNxownJOhFHncP0HM0SzgxPo50wCcO1bA5FZFFrcusI%7Cb1a1bbc111590bd5d0750b39a347b09b15884c8f67f377bfdbcbbcea7ec20da9; wp-settings-time-1=1586982971; PHPSESSID=49963d39990cf8fd410860ae6d50a59c; mongo-express=s%3AFQ_Mvyzca5i733cLQkflbFwHHFX81KUk.Wn6WgnglV41mXyo9pP%2BuFJ6m%2BUAD89MtOVRW6ZPSDik; _csrf=5de3e77faca8b44690fc5d131a41011a9cd9db7be9efc2a2b1086d87901cfcc5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2225z1gfhcVPBzi-zGFgKpjf_P7RdPBzzV%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at localhost Port 8084</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '172.22.0.2'
+    'SERVER_PORT' => '8084'
+    'REMOTE_ADDR' => '172.22.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/web/index.php'
+    'REMOTE_PORT' => '53344'
+    'REDIRECT_URL' => '/site/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/login'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1590518947.659
+    'REQUEST_TIME' => 1590518947
+    'argv' => []
+    'argc' => 0
+    'APP_NAME' => 'NSPK'
+    'APP_ID' => 'nspk'
+    'APP_URL' => 'http://localhost'
+    'APP_LANGUAGE' => 'ru-Ru'
+    'APP_ADMIN_EMAIL' => 'admin@example.com'
+    'WEB_PORT' => '8084'
+    'WEB_WORKING_DIR' => '/var/www/html/'
+    'WEB_ROOT_PATH' => '.'
+    'MYSQL_CONNECTION' => 'mysql'
+    'MYSQL_HOST' => 'localhost'
+    'MYSQL_PORT' => '3305'
+    'MYSQL_DATABASE' => 'db_mysql_20190305_nspk'
+    'MYSQL_DATABASE_CHARSET' => 'utf8mb4'
+    'MYSQL_DATABASE_COLLATION' => 'utf8mb4_unicode_ci'
+    'MYSQL_ROOT_USERNAME' => 'root'
+    'MYSQL_ROOT_PASSWORD' => 'rootexample'
+    'MYSQL_RESTART' => 'always'
+    'MYSQL_PATH' => './docker/databases/mysql'
+    'PHPMYADMIN_PORT' => '8082'
+    'MONGO_DB_CONNECTION' => 'mongo'
+    'MONGO_DB_HOST' => 'mongo'
+    'MONGO_DB_PORT' => '27017'
+    'MONGO_DB_DATABASE' => 'db_mongodb_20190305_nspk'
+    'MONGO_DB_ROOT_USERNAME' => 'root'
+    'MONGO_DB_ROOT_PASSWORD' => 'example'
+    'MONGO_DB_USERNAME' => 'user'
+    'MONGO_DB_PASSWORD' => 'example'
+    'MONGO_PATH' => './docker/databases/mongodb'
+    'MONGO_EXPRESS_PORT' => '8081'
+    'MONGO_EXPRESS_RESTART' => 'always'
+    'COOKIE_VALIDATION_KEY' => 'goBO9MdWpxXT69otHTNWPU0CBB0b6VjF'
+]
+2020-05-26 18:59:28 [172.22.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.22.0.1
+    in /var/www/html/views/layouts/main.php:74
+    in /var/www/html/controllers/SiteController.php:85
+2020-05-26 18:59:28 [172.22.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.22.0.1
+2020-05-26 18:59:28 [172.22.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PGADMIN_LANGUAGE' => 'ru'
+    'wordpress_test_cookie' => 'WP Cookie check'
+    'wordpress_logged_in_37d007a56d816107ce5b52c10342db37' => 'root|1587155768|pNxownJOhFHncP0HM0SzgxPo50wCcO1bA5FZFFrcusI|b1a1bbc111590bd5d0750b39a347b09b15884c8f67f377bfdbcbbcea7ec20da9'
+    'wp-settings-time-1' => '1586982971'
+    'PHPSESSID' => '49963d39990cf8fd410860ae6d50a59c'
+    'mongo-express' => 's:FQ_Mvyzca5i733cLQkflbFwHHFX81KUk.Wn6WgnglV41mXyo9pP+uFJ6m+UAD89MtOVRW6ZPSDik'
+    '_csrf' => '5de3e77faca8b44690fc5d131a41011a9cd9db7be9efc2a2b1086d87901cfcc5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"25z1gfhcVPBzi-zGFgKpjf_P7RdPBzzV\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8084'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8084/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PGADMIN_LANGUAGE=ru; wordpress_test_cookie=WP+Cookie+check; wordpress_logged_in_37d007a56d816107ce5b52c10342db37=root%7C1587155768%7CpNxownJOhFHncP0HM0SzgxPo50wCcO1bA5FZFFrcusI%7Cb1a1bbc111590bd5d0750b39a347b09b15884c8f67f377bfdbcbbcea7ec20da9; wp-settings-time-1=1586982971; PHPSESSID=49963d39990cf8fd410860ae6d50a59c; mongo-express=s%3AFQ_Mvyzca5i733cLQkflbFwHHFX81KUk.Wn6WgnglV41mXyo9pP%2BuFJ6m%2BUAD89MtOVRW6ZPSDik; _csrf=5de3e77faca8b44690fc5d131a41011a9cd9db7be9efc2a2b1086d87901cfcc5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2225z1gfhcVPBzi-zGFgKpjf_P7RdPBzzV%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at localhost Port 8084</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '172.22.0.2'
+    'SERVER_PORT' => '8084'
+    'REMOTE_ADDR' => '172.22.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/web/index.php'
+    'REMOTE_PORT' => '54094'
+    'REDIRECT_URL' => '/site/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/login'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1590519568.711
+    'REQUEST_TIME' => 1590519568
+    'argv' => []
+    'argc' => 0
+    'APP_NAME' => 'NSPK'
+    'APP_ID' => 'nspk'
+    'APP_URL' => 'http://localhost'
+    'APP_LANGUAGE' => 'ru-Ru'
+    'APP_ADMIN_EMAIL' => 'admin@example.com'
+    'WEB_PORT' => '8084'
+    'WEB_WORKING_DIR' => '/var/www/html/'
+    'WEB_ROOT_PATH' => '.'
+    'MYSQL_CONNECTION' => 'mysql'
+    'MYSQL_HOST' => 'localhost'
+    'MYSQL_PORT' => '3305'
+    'MYSQL_DATABASE' => 'db_mysql_20190305_nspk'
+    'MYSQL_DATABASE_CHARSET' => 'utf8mb4'
+    'MYSQL_DATABASE_COLLATION' => 'utf8mb4_unicode_ci'
+    'MYSQL_ROOT_USERNAME' => 'root'
+    'MYSQL_ROOT_PASSWORD' => 'rootexample'
+    'MYSQL_RESTART' => 'always'
+    'MYSQL_PATH' => './docker/databases/mysql'
+    'PHPMYADMIN_PORT' => '8082'
+    'MONGO_DB_CONNECTION' => 'mongo'
+    'MONGO_DB_HOST' => 'mongo'
+    'MONGO_DB_PORT' => '27017'
+    'MONGO_DB_DATABASE' => 'db_mongodb_20190305_nspk'
+    'MONGO_DB_ROOT_USERNAME' => 'root'
+    'MONGO_DB_ROOT_PASSWORD' => 'example'
+    'MONGO_DB_USERNAME' => 'user'
+    'MONGO_DB_PASSWORD' => 'example'
+    'MONGO_PATH' => './docker/databases/mongodb'
+    'MONGO_EXPRESS_PORT' => '8081'
+    'MONGO_EXPRESS_RESTART' => 'always'
+    'COOKIE_VALIDATION_KEY' => 'goBO9MdWpxXT69otHTNWPU0CBB0b6VjF'
+]
