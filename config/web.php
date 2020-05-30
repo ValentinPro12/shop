@@ -23,6 +23,9 @@ $config = [
         'request'      => [
             'baseUrl'             => '',
             'cookieValidationKey' => env('COOKIE_VALIDATION_KEY'),
+            'parsers'              => [
+                'application/json' => \yii\web\JsonParser::class,
+            ],
         ],
         'authManager'  => [
             'class' => 'yii\rbac\DbManager',
@@ -58,7 +61,8 @@ $config = [
         'urlManager'   => [
             'enablePrettyUrl' => true,
             'showScriptName'  => false,
-            'rules'           => [
+            'rules' => [
+                ['class' => 'yii\rest\UrlRule', 'controller' => 'test'],
             ],
         ],
     ],

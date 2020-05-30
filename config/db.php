@@ -2,7 +2,7 @@
 
 return [
     'class'    => 'yii\db\Connection',
-    'dsn'      => 'mysql:host=' . env('MYSQL_HOST') . ';port=' . env('MYSQL_PORT') . ';dbname=' . env('MYSQL_DATABASE'),
+    'dsn' => 'mysql:host=' . env('MYSQL_HOST') . ';port=' . env('MYSQL_PORT') . ';dbname=' . env('MYSQL_DATABASE'),
     'username' => env('MYSQL_ROOT_USERNAME'),
     'password' => env('MYSQL_ROOT_PASSWORD'),
     'charset'  => env('MYSQL_DATABASE_CHARSET'),

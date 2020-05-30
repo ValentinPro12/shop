@@ -61,7 +61,12 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        return $this->render('index');
+        return '123';
+    }
+
+    public function actionTest()
+    {
+        return '123';
     }
 
     /**
